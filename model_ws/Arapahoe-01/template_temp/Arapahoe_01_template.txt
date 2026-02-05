@@ -1,0 +1,152 @@
+TITLE Forward Model No. 1 Arapahoe
+
+KNOBS
+	-iterations 1000
+	
+EQUILIBRIUM_PHASES 1
+		Calcite	0.0 0.0
+		Dolomite 0.0 0.0
+		Gypsum 0.0 0.0	
+		Strontianite 0.0 0.0 dissolve_only
+		Witherite 0.0 0.0 dissolve_only
+		CO2(g) 0.0 0.0
+		CaX2 0.0 0.0 
+		MgX2 0.0 0.0 
+		KX 0.0 0.0 
+		NaX 0.0 0.0 
+		Quartz 0.0 0.0 dissolve_only
+		Albite 0.0 0.0	dissolve_only
+		Kaolinite 0.0 0.0 dissolve_only
+		Muscovite 0.0 0.0
+		Uraninite 0.0 0.0
+		Arsenopyrite 0.0 0.0 dissolve_only
+		Goethite 0.0 0.0
+		Fe(OH)3 0.0 0.0 
+		Siderite 0.0 0.0
+		Mn(OH)3 0.0 0.0			
+		Fluorapatite 0.0 0.0 
+		Halite 0.0 0.0
+		Illite 0.0 0.0
+		Chromite 0.0 0.0	dissolve_only
+END
+		
+REACTION_TEMPERATURE 1
+	25.4
+END
+	
+Solution 1 # # USGS-392118104362301 Upstream WQ
+        units		mol/kgw
+        redox       pe
+        temp		30.1
+        pH		    8.3
+        O(0)        0.0
+        Na		    0.003062228
+        Ca		    5.81337E-05
+        Mg		    1.67867E-05
+        K           3.91321E-05
+        Alkalinity	0.002817521	as CaCO3
+        S(6)		0.000108263
+        Cl		    4.62623E-05
+        F		    8.57967E-05
+        Mn		    1.98405E-07
+        Ba          2.66517E-07
+        Sr          5.14723E-07
+        Fe          4.7093E-07
+        Al          7.41235E-08
+        Si          0.000150956 as SiO2
+        As          8.00837E-10
+        U           8.40234E-11
+        Cr          5.76967E-10
+        P           1.16227E-06    as P
+	
+	water 1
+
+SAVE Solution 1
+END
+
+REACTION 1
+		Calcite	0.0 
+		Dolomite 0.0
+		Gypsum 8.829e-05
+		Strontianite 1.113e-06 
+		Witherite 2.852e-07
+		CO2(g) 0.00045
+		CaX2 3.923e-04
+		MgX2 1.062e-05
+		KX 0.0
+		NaX 0.0
+		Quartz 0.0
+		Albite 0.0
+		Kaolinite 0.0
+		Muscovite 2.220e-05
+		Uraninite 0.0
+		Arsenopyrite 0.0
+		Goethite 3.857e+00
+		Fe(OH)3 0.0 
+		Siderite 0.0
+		Mn(OH)3 5.620e-08
+		Fluorapatite 0.0
+		Halite 5.119e-06
+		Illite 0.0
+		Chromite 1.560e-09
+
+END
+
+Solution 2 # USGS-394155104425401 Downstream WQ
+        units		mol/kgw
+        redox       pe
+        temp		25.4
+        pH		    8.7
+        O(0)        9.37559E-06
+        Na		    0.002457612
+        Ca		    0.000183383
+        Mg		    2.03662E-05
+        K           4.45032E-05
+        Alkalinity	0.002437855	as CaCO3
+        S(6)		0.00020106
+        Cl		    5.72638E-05
+        F		    9.2113E-05
+        Mn		    2.56653E-07
+        Ba          5.77454E-07
+        Sr          1.60922E-06
+        Fe          1.52739E-06
+        Al          2.96494E-08
+        Si          0.000131407 as SiO2
+        As          1.33473E-09
+        U           8.40234E-11
+        Cr          7.6929E-09
+        P           9.68561E-08    as P
+	
+	water 1
+
+SAVE Solution 2
+END
+
+TITLE Mix Upstream and Downstream Water Qaulity
+MIX 1 
+1 0.5
+2 0.5
+SAVE Solution 3 
+
+END
+
+TITLE REACT, EQUILIBRATE WITH SUBSURFACE MATERIALS
+USE Solution 3
+USE REACTION_TEMPERATURE 1
+USE REACTION 1
+USE EQUILIBRIUM_PHASES 1
+
+SAVE Solution 4
+
+SELECTED_OUTPUT
+	file Arapahoe_01_template_selected_output.txt
+	selected_out      TRUE
+	high_precision     TRUE
+	pH     TRUE
+	charge_balance     TRUE
+	percent_error     TRUE
+	molalities      HCO3- CO3-2
+	totals     O(0) Cl Ca Mg Na K S(6) Alkalinity F Mn Ba Sr Fe As U P Al Si Cr
+	-saturation_indices		Aragonite Brucite Calcite Dolomite Dolomite-dis Fe(OH)3 Goethite Gypsum Gibbsite Magnesite Mn(OH)3 Rhodochrosite Siderite Sylvite Strontianite Witherite CO2(g) O2(g)
+	-equilibrium_phases      Aragonite Brucite Calcite Dolomite Dolomite-dis Fe(OH)3 Goethite Gypsum Gibbsite Magnesite Mn(OH)3 Rhodochrosite Siderite Sylvite Strontianite Witherite  CO2(g) O2(g)
+END

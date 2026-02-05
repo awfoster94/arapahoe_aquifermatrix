@@ -1,0 +1,2556 @@
+time,elapsed_seconds,message
+14:32:48,0.00038,PEST++ performance logger started
+14:32:48,0.0083478,starting to process control file
+14:32:49,0.0964956,finished processing control file
+14:32:49,0.0566714,initializing
+14:32:49,0.0007993,checking phi factors in file phi_facs.csv
+14:32:49,0.0009095,reading 'ies_phi_factors_file for all realizations': phi_facs.csv
+14:32:49,0.0139429,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:GENERAL.PH maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:GENERAL.PH,
+14:32:49,0.0003236,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.ALKALINITY maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.ALKALINITY,
+14:32:49,0.000307,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.CL maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.CL,
+14:32:49,0.0008692,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.S(6) maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.S(6),
+14:32:49,0.000173,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.CA maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.CA,
+14:32:49,0.0001066,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.K maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.K,
+14:32:49,0.0001054,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.MG maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.MG,
+14:32:49,0.0001005,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.NA maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.NA,
+14:32:49,0.0001028,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MINORANION.F maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MINORANION.F,
+14:32:49,0.0001004,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AL maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AL,
+14:32:49,0.0002449,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AS maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AS,
+14:32:49,0.000134,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.BA maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.BA,
+14:32:49,0.0001061,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.CR maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.CR,
+14:32:49,9.72e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.FE maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.FE,
+14:32:49,0.0001021,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.MN maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.MN,
+14:32:49,9.63e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.P maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.P,
+14:32:49,0.000146,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SI maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SI,
+14:32:49,0.0001042,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SR maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SR,
+14:32:49,9.75e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.U maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.U,
+14:32:49,0.0022439,using glm algorithm
+14:32:49,0.0006095,using REDSVD for truncated svd solve
+14:32:49,0.0005348,maxsing: 10000000
+14:32:49,0.0004174,eigthresh:  1e-06
+14:32:49,0.0004417,initializing localizer
+14:32:49,0.0012855,not using localization
+14:32:49,0.000659,using lambda multipliers: 
+14:32:49,0.0005873,using lambda scaling factors: 
+14:32:49,0.0005028,acceptable phi factor:  1.05
+14:32:49,0.0014912,lambda increase factor:  10
+14:32:49,0.0007335,lambda decrease factor:  0.75
+14:32:49,0.0006668,max run fail:  1
+14:32:49,0.0007302,initializing prior parameter covariance matrix
+14:32:49,9.6e-05,initializing parcov
+14:32:49,0.0029235,parcov loaded  from parameter bounds, using par_sigma_range 4
+14:32:49,0.001943,initializing observation noise covariance matrix
+14:32:49,0.0029185,obscov loaded  from observation weights
+14:32:49,0.0007894,using reg_factor:  0
+14:32:49,9.88e-05,processing par ensemble prior.jcb
+14:32:49,0.000784,loading par ensemble from binary file prior.jcb
+14:32:49,0.0255676,not using prior parameter covariance matrix scaling
+14:32:49,0.0002704,processing obs ensemblenoise.jcb
+14:32:49,0.0006473,loading obs ensemble from binary file noise.jcb
+14:32:49,0.0258601,setting weights ensemble from control file weights
+14:32:49,0.0066503,saved weight ensemble to  AR01.weights.jcb
+14:32:49,0.0002001,checking for denormal values in weights ensemble
+14:32:49,0.0006154,adding 'base' parameter values to ensemble
+14:32:49,0.0009882,adding 'base' observation values to ensemble
+14:32:49,0.0009284,adding 'base' weight values to weight ensemble
+14:32:49,0.0004777,checking for denormal values in pe
+14:32:49,0.0124138,saved initial parameter ensemble to  AR01.0.par.jcb
+14:32:49,0.0001307,checking for denormal values in obs + noise ensemble
+14:32:49,0.0108374,saved obs+noise observation ensemble (obsval + noise realizations) to  AR01.obs+noise.jcb
+14:32:49,0.0008553,using subset in lambda testing, percentage of realizations used in subset testing:  10
+14:32:49,0.0006347,subset how:  RANDOM
+14:32:49,0.0009343,centering on ensemble mean vector
+14:32:49,9.08e-05,running initial ensemble
+14:32:49,0.0005528,running initial ensemble of size 60
+14:32:49,0.0001289,queuing 60 runs
+14:32:49,0.0339987,making runs
+14:36:22,213.365,processing runs
+14:36:22,0.023442,saved initial obs ensemble to AR01.0.obs.jcb
+14:36:22,0.0463283,calc pre-drop phi
+14:36:22,0.0404702,pre-drop initial phi summary
+14:36:22,0.0178143,checking for prior-data conflict
+14:36:22,0.0070554,adjusting weights using phi factors in file phi_facs.csv
+14:36:22,0.004514,pre-weight-adjustment initial phi summary
+14:36:22,0.0146493,checking phi factors in file phi_facs.csv
+14:36:22,8.73e-05,reading 'ies_phi_factors_file for all realizations': phi_facs.csv
+14:36:22,0.0040023,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:GENERAL.PH maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:GENERAL.PH,
+14:36:22,0.0001412,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.ALKALINITY maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.ALKALINITY,
+14:36:22,0.0001066,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.CL maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.CL,
+14:36:22,9.95e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.S(6) maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.S(6),
+14:36:22,9.65e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.CA maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.CA,
+14:36:22,0.0001378,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.K maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.K,
+14:36:22,9.86e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.MG maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.MG,
+14:36:22,9.8e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.NA maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.NA,
+14:36:22,9.53e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MINORANION.F maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MINORANION.F,
+14:36:22,9.3e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AL maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AL,
+14:36:22,0.0001135,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AS maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AS,
+14:36:22,9.14e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.BA maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.BA,
+14:36:22,9.15e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.CR maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.CR,
+14:36:22,9.66e-05,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.FE maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.FE,
+14:36:22,0.0001104,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.MN maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.MN,
+14:36:22,0.000106,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.P maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.P,
+14:36:22,0.0002226,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SI maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SI,
+14:36:22,0.000305,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SR maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SR,
+14:36:22,0.0001439,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.U maps to groups ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.U,
+14:36:22,0.0007286,using mean residuals for reweighting
+14:36:22,0.000917,original mean phi:  81.9468
+14:36:22,0.0011624,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:GENERAL.PH' original mean phi (factor): 6.27749 (0.0766044)
+14:36:22,0.0009281,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.ALKALINITY' original mean phi (factor): 10.676 (0.13028)
+14:36:22,0.0007067,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.CL' original mean phi (factor): 0.0711173 (0.000867847)
+14:36:22,0.0012874,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.S(6)' original mean phi (factor): 41.3877 (0.505055)
+14:36:22,0.0006254,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.CA' original mean phi (factor): 1.36719 (0.0166839)
+14:36:22,0.0009571,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.K' original mean phi (factor): 0.0407927 (0.000497795)
+14:36:22,0.0007445,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.MG' original mean phi (factor): 0.296449 (0.00361757)
+14:36:22,0.0007759,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.NA' original mean phi (factor): 0.00641127 (7.8237e-05)
+14:36:22,0.0008643,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MINORANION.F' original mean phi (factor): 0.0142136 (0.000173449)
+14:36:22,0.0013794,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AL' original mean phi (factor): 3.3018 (0.040292)
+14:36:22,0.0010121,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AS' original mean phi (factor): 0.0651822 (0.000795421)
+14:36:22,0.0006767,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.BA' original mean phi (factor): 0.286588 (0.00349725)
+14:36:22,0.0010485,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.CR' original mean phi (factor): 0.402404 (0.00491055)
+14:36:22,0.0008157,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.FE' original mean phi (factor): 9.55568 (0.116608)
+14:36:22,0.0008706,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.MN' original mean phi (factor): 0.195222 (0.0023823)
+14:36:22,0.0019723,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.P' original mean phi (factor): 7.10631 (0.0867186)
+14:36:22,0.0006252,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SI' original mean phi (factor): 0.0424517 (0.00051804)
+14:36:22,0.0003407,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SR' original mean phi (factor): 0.526272 (0.00642211)
+14:36:22,0.0007136,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.U' original mean phi (factor): 0.327533 (0.0039969)
+14:36:22,0.0047409,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:GENERAL.PH' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0007211,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.ALKALINITY' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0005207,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.CL' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0008631,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORANION.S(6)' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0017783,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.CA' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0016891,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.K' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0006198,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.MG' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0005906,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MAJORCATION.NA' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0005505,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:MINORANION.F' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0011198,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AL' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0006544,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.AS' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0004324,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.BA' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0003663,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.CR' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0005884,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.FE' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0003513,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.MN' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0006083,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.P' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0010085,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SI' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0007188,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.SR' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0006228,file tag 'ONAME:SIM_OTYPE:LST_USECOL:CONC_TAG:TRACE.U' adjusted mean phi (factor): 4.31299 (0.0526316)
+14:36:22,0.0069279,saved adjusted weight ensemble to  AR01.adjusted.weights.jcb
+14:36:22,0.0411497,calc initial phi
+14:36:22,0.0048689,initial phi summary
+14:36:22,0.0267287,scaling phi-based initial lambda: -100, by user-supplied (negative) initial lambda: 100
+14:36:22,0.0006993,current lambda: 100
+14:36:22,0.0005476,initialization complete
+14:36:22,0.001404,starting solve for iteration: 1
+14:36:22,4.03e-05,starting solve for iteration: 1
+14:36:22,0.0007437,current lambda:  100
+14:36:22,0.0001147,subset defined as a percentage of ensemble size, using 6 realizations for subset
+
+14:36:22,4.94e-05,reordering variables in pe
+14:36:22,0.0002993,preparing EnsembleSolver
+14:36:22,0.0004799,getting phi vectors for all weights
+14:36:22,0.0028483,calculating multimodal neighborhoods with 59 realizations
+14:36:22,0.0001173,calculating multimodal neighborhood for realization 0
+14:36:22,4.86e-05,...getting weights
+14:36:22,0.000316,...getting par distances
+14:36:22,0.0002197,...sorting composite score
+14:36:22,0.0002236,calculating multimodal neighborhood for realization 1
+14:36:22,5.66e-05,...getting weights
+14:36:22,0.0001013,...getting par distances
+14:36:22,0.0001823,...sorting composite score
+14:36:22,0.0001203,calculating multimodal neighborhood for realization 2
+14:36:22,5.27e-05,...getting weights
+14:36:22,0.000101,...getting par distances
+14:36:22,0.0001838,...sorting composite score
+14:36:22,0.0001186,calculating multimodal neighborhood for realization 3
+14:36:22,8.46e-05,...getting weights
+14:36:22,0.000106,...getting par distances
+14:36:22,0.0001802,...sorting composite score
+14:36:22,0.0001203,calculating multimodal neighborhood for realization 4
+14:36:22,5.28e-05,...getting weights
+14:36:22,9.37e-05,...getting par distances
+14:36:22,0.0001777,...sorting composite score
+14:36:22,0.0001177,calculating multimodal neighborhood for realization 5
+14:36:22,4.95e-05,...getting weights
+14:36:22,9.4e-05,...getting par distances
+14:36:22,0.0001758,...sorting composite score
+14:36:22,0.0001144,calculating multimodal neighborhood for realization 6
+14:36:22,5.02e-05,...getting weights
+14:36:22,9.3e-05,...getting par distances
+14:36:22,0.0001729,...sorting composite score
+14:36:22,0.0001112,calculating multimodal neighborhood for realization 7
+14:36:22,4.65e-05,...getting weights
+14:36:22,9e-05,...getting par distances
+14:36:22,0.0006231,...sorting composite score
+14:36:22,0.0002371,calculating multimodal neighborhood for realization 8
+14:36:22,0.0001335,...getting weights
+14:36:22,0.00016,...getting par distances
+14:36:22,0.0002011,...sorting composite score
+14:36:22,0.0002066,calculating multimodal neighborhood for realization 9
+14:36:22,6.29e-05,...getting weights
+14:36:22,0.0001042,...getting par distances
+14:36:22,0.0001812,...sorting composite score
+14:36:22,0.0001206,calculating multimodal neighborhood for realization 10
+14:36:22,0.0002306,...getting weights
+14:36:22,0.0001676,...getting par distances
+14:36:22,0.0001919,...sorting composite score
+14:36:22,0.0001199,calculating multimodal neighborhood for realization 11
+14:36:22,5.03e-05,...getting weights
+14:36:22,9.2e-05,...getting par distances
+14:36:22,0.0001703,...sorting composite score
+14:36:22,0.0001111,calculating multimodal neighborhood for realization 12
+14:36:22,0.0002319,...getting weights
+14:36:22,0.0001814,...getting par distances
+14:36:22,0.0002103,...sorting composite score
+14:36:22,0.0001302,calculating multimodal neighborhood for realization 13
+14:36:22,5.51e-05,...getting weights
+14:36:22,0.0001066,...getting par distances
+14:36:22,0.000713,...sorting composite score
+14:36:22,0.000188,calculating multimodal neighborhood for realization 14
+14:36:22,6.29e-05,...getting weights
+14:36:22,0.0001115,...getting par distances
+14:36:22,0.0001817,...sorting composite score
+14:36:22,0.0001199,calculating multimodal neighborhood for realization 15
+14:36:22,5.15e-05,...getting weights
+14:36:22,9.94e-05,...getting par distances
+14:36:22,0.0001733,...sorting composite score
+14:36:22,0.0001142,calculating multimodal neighborhood for realization 16
+14:36:22,4.71e-05,...getting weights
+14:36:22,9.25e-05,...getting par distances
+14:36:22,0.0001653,...sorting composite score
+14:36:22,0.0002438,calculating multimodal neighborhood for realization 17
+14:36:22,6.45e-05,...getting weights
+14:36:22,9.42e-05,...getting par distances
+14:36:22,0.0001676,...sorting composite score
+14:36:22,0.0001123,calculating multimodal neighborhood for realization 18
+14:36:22,4.7e-05,...getting weights
+14:36:22,8.89e-05,...getting par distances
+14:36:22,0.0001655,...sorting composite score
+14:36:22,0.0001164,calculating multimodal neighborhood for realization 19
+14:36:22,0.0001128,...getting weights
+14:36:22,0.0001532,...getting par distances
+14:36:22,0.0001886,...sorting composite score
+14:36:22,0.0001896,calculating multimodal neighborhood for realization 20
+14:36:22,0.0001248,...getting weights
+14:36:22,0.0001269,...getting par distances
+14:36:22,0.000205,...sorting composite score
+14:36:22,0.0001338,calculating multimodal neighborhood for realization 21
+14:36:22,5.63e-05,...getting weights
+14:36:22,0.0001111,...getting par distances
+14:36:22,0.000257,...sorting composite score
+14:36:22,0.0001598,calculating multimodal neighborhood for realization 22
+14:36:22,6.56e-05,...getting weights
+14:36:22,0.0001547,...getting par distances
+14:36:22,0.0001877,...sorting composite score
+14:36:22,0.0001216,calculating multimodal neighborhood for realization 23
+14:36:22,4.86e-05,...getting weights
+14:36:22,9.64e-05,...getting par distances
+14:36:22,0.0001704,...sorting composite score
+14:36:22,0.000113,calculating multimodal neighborhood for realization 24
+14:36:22,5.36e-05,...getting weights
+14:36:22,9.51e-05,...getting par distances
+14:36:22,0.0001697,...sorting composite score
+14:36:22,0.0001836,calculating multimodal neighborhood for realization 25
+14:36:22,6.43e-05,...getting weights
+14:36:22,9.1e-05,...getting par distances
+14:36:22,0.0001935,...sorting composite score
+14:36:22,0.000118,calculating multimodal neighborhood for realization 26
+14:36:22,4.72e-05,...getting weights
+14:36:22,8.93e-05,...getting par distances
+14:36:22,0.0001649,...sorting composite score
+14:36:22,0.0001129,calculating multimodal neighborhood for realization 27
+14:36:22,4.95e-05,...getting weights
+14:36:22,9.02e-05,...getting par distances
+14:36:22,0.0001642,...sorting composite score
+14:36:22,0.0001134,calculating multimodal neighborhood for realization 28
+14:36:22,4.67e-05,...getting weights
+14:36:22,8.72e-05,...getting par distances
+14:36:22,0.0001608,...sorting composite score
+14:36:22,0.0001112,calculating multimodal neighborhood for realization 29
+14:36:22,4.68e-05,...getting weights
+14:36:22,8.8e-05,...getting par distances
+14:36:22,0.000165,...sorting composite score
+14:36:22,0.0001138,calculating multimodal neighborhood for realization 30
+14:36:22,6.38e-05,...getting weights
+14:36:22,9.67e-05,...getting par distances
+14:36:22,0.0001967,...sorting composite score
+14:36:22,0.0001129,calculating multimodal neighborhood for realization 31
+14:36:22,4.78e-05,...getting weights
+14:36:22,8.82e-05,...getting par distances
+14:36:22,0.0001646,...sorting composite score
+14:36:22,0.0001202,calculating multimodal neighborhood for realization 32
+14:36:22,5.1e-05,...getting weights
+14:36:22,9.05e-05,...getting par distances
+14:36:22,0.0001654,...sorting composite score
+14:36:22,0.0006342,calculating multimodal neighborhood for realization 33
+14:36:22,0.0001328,...getting weights
+14:36:22,0.0001227,...getting par distances
+14:36:22,0.0001909,...sorting composite score
+14:36:22,0.0001169,calculating multimodal neighborhood for realization 34
+14:36:22,4.96e-05,...getting weights
+14:36:22,0.0001029,...getting par distances
+14:36:22,0.0001781,...sorting composite score
+14:36:22,0.0001124,calculating multimodal neighborhood for realization 35
+14:36:22,4.95e-05,...getting weights
+14:36:22,9.6e-05,...getting par distances
+14:36:22,0.0001729,...sorting composite score
+14:36:22,0.0001165,calculating multimodal neighborhood for realization 36
+14:36:22,5.15e-05,...getting weights
+14:36:22,0.000132,...getting par distances
+14:36:22,0.0001744,...sorting composite score
+14:36:22,0.0001176,calculating multimodal neighborhood for realization 37
+14:36:22,5.11e-05,...getting weights
+14:36:22,9.47e-05,...getting par distances
+14:36:22,0.0001645,...sorting composite score
+14:36:22,0.0001142,calculating multimodal neighborhood for realization 38
+14:36:22,4.78e-05,...getting weights
+14:36:22,8.95e-05,...getting par distances
+14:36:22,0.0001632,...sorting composite score
+14:36:22,0.0001114,calculating multimodal neighborhood for realization 39
+14:36:22,4.96e-05,...getting weights
+14:36:22,8.75e-05,...getting par distances
+14:36:22,0.0001647,...sorting composite score
+14:36:22,0.0001139,calculating multimodal neighborhood for realization 40
+14:36:22,4.93e-05,...getting weights
+14:36:22,9.03e-05,...getting par distances
+14:36:22,0.000162,...sorting composite score
+14:36:22,0.000206,calculating multimodal neighborhood for realization 41
+14:36:22,6.49e-05,...getting weights
+14:36:22,9.29e-05,...getting par distances
+14:36:22,0.0001677,...sorting composite score
+14:36:22,0.000116,calculating multimodal neighborhood for realization 42
+14:36:22,5.22e-05,...getting weights
+14:36:22,0.0003124,...getting par distances
+14:36:22,0.0002333,...sorting composite score
+14:36:22,0.0001346,calculating multimodal neighborhood for realization 43
+14:36:22,5.59e-05,...getting weights
+14:36:22,0.0002526,...getting par distances
+14:36:22,0.0002612,...sorting composite score
+14:36:22,0.0001397,calculating multimodal neighborhood for realization 44
+14:36:22,5.65e-05,...getting weights
+14:36:22,0.000103,...getting par distances
+14:36:22,0.000181,...sorting composite score
+14:36:22,0.0001174,calculating multimodal neighborhood for realization 45
+14:36:22,5.39e-05,...getting weights
+14:36:22,0.0001001,...getting par distances
+14:36:22,0.0001795,...sorting composite score
+14:36:22,0.0001181,calculating multimodal neighborhood for realization 46
+14:36:22,5.02e-05,...getting weights
+14:36:22,0.0001313,...getting par distances
+14:36:22,0.0001776,...sorting composite score
+14:36:22,0.0001184,calculating multimodal neighborhood for realization 47
+14:36:22,4.93e-05,...getting weights
+14:36:22,9.34e-05,...getting par distances
+14:36:22,0.0001665,...sorting composite score
+14:36:22,0.0001247,calculating multimodal neighborhood for realization 48
+14:36:22,5.12e-05,...getting weights
+14:36:22,9.03e-05,...getting par distances
+14:36:22,0.0001655,...sorting composite score
+14:36:22,0.0001802,calculating multimodal neighborhood for realization 49
+14:36:22,5.51e-05,...getting weights
+14:36:22,8.93e-05,...getting par distances
+14:36:22,0.0001615,...sorting composite score
+14:36:22,0.0001155,calculating multimodal neighborhood for realization 50
+14:36:22,4.77e-05,...getting weights
+14:36:22,0.0001032,...getting par distances
+14:36:22,0.0001712,...sorting composite score
+14:36:22,0.0005042,calculating multimodal neighborhood for realization 51
+14:36:22,0.000411,...getting weights
+14:36:22,0.0001547,...getting par distances
+14:36:22,0.0001983,...sorting composite score
+14:36:22,0.0004902,calculating multimodal neighborhood for realization 52
+14:36:22,0.0001222,...getting weights
+14:36:22,0.0001268,...getting par distances
+14:36:22,0.0002616,...sorting composite score
+14:36:22,0.0002169,calculating multimodal neighborhood for realization 53
+14:36:22,0.0001134,...getting weights
+14:36:22,0.0001131,...getting par distances
+14:36:22,0.0001767,...sorting composite score
+14:36:22,0.0001229,calculating multimodal neighborhood for realization 54
+14:36:22,5.26e-05,...getting weights
+14:36:22,9.54e-05,...getting par distances
+14:36:22,0.0001694,...sorting composite score
+14:36:22,0.0001205,calculating multimodal neighborhood for realization 55
+14:36:22,5.27e-05,...getting weights
+14:36:22,0.0001024,...getting par distances
+14:36:22,0.0001683,...sorting composite score
+14:36:22,0.0001164,calculating multimodal neighborhood for realization 56
+14:36:22,5.02e-05,...getting weights
+14:36:22,9.29e-05,...getting par distances
+14:36:22,0.0002103,...sorting composite score
+14:36:22,0.0001892,calculating multimodal neighborhood for realization 57
+14:36:22,5.87e-05,...getting weights
+14:36:22,9.18e-05,...getting par distances
+14:36:22,0.0001665,...sorting composite score
+14:36:22,0.0001144,calculating multimodal neighborhood for realization 58
+14:36:22,5.2e-05,...getting weights
+14:36:22,9.08e-05,...getting par distances
+14:36:22,0.0001613,...sorting composite score
+14:36:22,0.0001143,calculating multimodal neighborhood for realization BASE
+14:36:22,5e-05,...getting weights
+14:36:22,9.19e-05,...getting par distances
+14:36:22,0.0001667,...sorting composite score
+14:36:22,0.0012119,starting calcs for glm factor 10
+14:36:22,0.0001054,see .log file for more details
+14:36:22,0.0012049,multimodal solve for inflation factor  10
+14:36:22,0.0002133,calculating nonlocalized multimodal upgrade for 0
+14:36:22,0.0030392,calculating nonlocalized multimodal upgrade for 1
+14:36:22,0.002149,calculating nonlocalized multimodal upgrade for 2
+14:36:22,0.002029,calculating nonlocalized multimodal upgrade for 3
+14:36:22,0.0025926,calculating nonlocalized multimodal upgrade for 4
+14:36:22,0.0030805,calculating nonlocalized multimodal upgrade for 5
+14:36:22,0.00209,calculating nonlocalized multimodal upgrade for 6
+14:36:22,0.0022445,calculating nonlocalized multimodal upgrade for 7
+14:36:22,0.0030345,calculating nonlocalized multimodal upgrade for 8
+14:36:22,0.0034733,calculating nonlocalized multimodal upgrade for 9
+14:36:22,0.0023724,calculating nonlocalized multimodal upgrade for 10
+14:36:22,0.0027817,calculating nonlocalized multimodal upgrade for 11
+14:36:22,0.0022256,calculating nonlocalized multimodal upgrade for 12
+14:36:22,0.0025226,calculating nonlocalized multimodal upgrade for 13
+14:36:22,0.0021356,calculating nonlocalized multimodal upgrade for 14
+14:36:22,0.0020726,calculating nonlocalized multimodal upgrade for 15
+14:36:22,0.0019701,calculating nonlocalized multimodal upgrade for 16
+14:36:22,0.0019626,calculating nonlocalized multimodal upgrade for 17
+14:36:22,0.0020914,calculating nonlocalized multimodal upgrade for 18
+14:36:22,0.0021462,calculating nonlocalized multimodal upgrade for 19
+14:36:22,0.0019753,calculating nonlocalized multimodal upgrade for 20
+14:36:22,0.0019757,calculating nonlocalized multimodal upgrade for 21
+14:36:22,0.0019258,calculating nonlocalized multimodal upgrade for 22
+14:36:23,0.0019437,calculating nonlocalized multimodal upgrade for 23
+14:36:23,0.0019597,calculating nonlocalized multimodal upgrade for 24
+14:36:23,0.00194,calculating nonlocalized multimodal upgrade for 25
+14:36:23,0.0027023,calculating nonlocalized multimodal upgrade for 26
+14:36:23,0.0025685,calculating nonlocalized multimodal upgrade for 27
+14:36:23,0.0025979,calculating nonlocalized multimodal upgrade for 28
+14:36:23,0.0022544,calculating nonlocalized multimodal upgrade for 29
+14:36:23,0.0021354,calculating nonlocalized multimodal upgrade for 30
+14:36:23,0.0020428,calculating nonlocalized multimodal upgrade for 31
+14:36:23,0.0027274,calculating nonlocalized multimodal upgrade for 32
+14:36:23,0.0031502,calculating nonlocalized multimodal upgrade for 33
+14:36:23,0.0025156,calculating nonlocalized multimodal upgrade for 34
+14:36:23,0.0020388,calculating nonlocalized multimodal upgrade for 35
+14:36:23,0.0019636,calculating nonlocalized multimodal upgrade for 36
+14:36:23,0.0019646,calculating nonlocalized multimodal upgrade for 37
+14:36:23,0.0019455,calculating nonlocalized multimodal upgrade for 38
+14:36:23,0.0019236,calculating nonlocalized multimodal upgrade for 39
+14:36:23,0.0019595,calculating nonlocalized multimodal upgrade for 40
+14:36:23,0.0040827,calculating nonlocalized multimodal upgrade for 41
+14:36:23,0.0022529,calculating nonlocalized multimodal upgrade for 42
+14:36:23,0.0031067,calculating nonlocalized multimodal upgrade for 43
+14:36:23,0.0028118,calculating nonlocalized multimodal upgrade for 44
+14:36:23,0.0024593,calculating nonlocalized multimodal upgrade for 45
+14:36:23,0.0024527,calculating nonlocalized multimodal upgrade for 46
+14:36:23,0.0024368,calculating nonlocalized multimodal upgrade for 47
+14:36:23,0.0025588,calculating nonlocalized multimodal upgrade for 48
+14:36:23,0.0013869,calculating nonlocalized multimodal upgrade for 49
+14:36:23,0.0007352,calculating nonlocalized multimodal upgrade for 50
+14:36:23,0.0006948,calculating nonlocalized multimodal upgrade for 51
+14:36:23,0.0014975,calculating nonlocalized multimodal upgrade for 52
+14:36:23,0.0020027,calculating nonlocalized multimodal upgrade for 53
+14:36:23,0.0019903,calculating nonlocalized multimodal upgrade for 54
+14:36:23,0.0022946,calculating nonlocalized multimodal upgrade for 55
+14:36:23,0.002899,calculating nonlocalized multimodal upgrade for 56
+14:36:23,0.0022416,calculating nonlocalized multimodal upgrade for 57
+14:36:23,0.0025071,calculating nonlocalized multimodal upgrade for 58
+14:36:23,0.0022739,calculating nonlocalized multimodal upgrade for BASE
+14:36:23,0.0051017,finished calcs for: 10
+14:36:23,0.000759,starting calcs for glm factor 100
+14:36:23,6.26e-05,see .log file for more details
+14:36:23,0.0004106,multimodal solve for inflation factor  100
+14:36:23,0.0001234,calculating nonlocalized multimodal upgrade for 0
+14:36:23,0.0020036,calculating nonlocalized multimodal upgrade for 1
+14:36:23,0.0018289,calculating nonlocalized multimodal upgrade for 2
+14:36:23,0.0017583,calculating nonlocalized multimodal upgrade for 3
+14:36:23,0.002336,calculating nonlocalized multimodal upgrade for 4
+14:36:23,0.0010254,calculating nonlocalized multimodal upgrade for 5
+14:36:23,0.0019031,calculating nonlocalized multimodal upgrade for 6
+14:36:23,0.0023151,calculating nonlocalized multimodal upgrade for 7
+14:36:23,0.0020681,calculating nonlocalized multimodal upgrade for 8
+14:36:23,0.0019562,calculating nonlocalized multimodal upgrade for 9
+14:36:23,0.0025965,calculating nonlocalized multimodal upgrade for 10
+14:36:23,0.0021034,calculating nonlocalized multimodal upgrade for 11
+14:36:23,0.0018707,calculating nonlocalized multimodal upgrade for 12
+14:36:23,0.0020518,calculating nonlocalized multimodal upgrade for 13
+14:36:23,0.0023004,calculating nonlocalized multimodal upgrade for 14
+14:36:23,0.0024548,calculating nonlocalized multimodal upgrade for 15
+14:36:23,0.0017479,calculating nonlocalized multimodal upgrade for 16
+14:36:23,0.0017697,calculating nonlocalized multimodal upgrade for 17
+14:36:23,0.0021041,calculating nonlocalized multimodal upgrade for 18
+14:36:23,0.0027287,calculating nonlocalized multimodal upgrade for 19
+14:36:23,0.0026166,calculating nonlocalized multimodal upgrade for 20
+14:36:23,0.0022378,calculating nonlocalized multimodal upgrade for 21
+14:36:23,0.002271,calculating nonlocalized multimodal upgrade for 22
+14:36:23,0.0021576,calculating nonlocalized multimodal upgrade for 23
+14:36:23,0.0017307,calculating nonlocalized multimodal upgrade for 24
+14:36:23,0.0016856,calculating nonlocalized multimodal upgrade for 25
+14:36:23,0.0016786,calculating nonlocalized multimodal upgrade for 26
+14:36:23,0.0016983,calculating nonlocalized multimodal upgrade for 27
+14:36:23,0.0016737,calculating nonlocalized multimodal upgrade for 28
+14:36:23,0.0016956,calculating nonlocalized multimodal upgrade for 29
+14:36:23,0.001703,calculating nonlocalized multimodal upgrade for 30
+14:36:23,0.0016372,calculating nonlocalized multimodal upgrade for 31
+14:36:23,0.0016256,calculating nonlocalized multimodal upgrade for 32
+14:36:23,0.0016626,calculating nonlocalized multimodal upgrade for 33
+14:36:23,0.0016317,calculating nonlocalized multimodal upgrade for 34
+14:36:23,0.0016152,calculating nonlocalized multimodal upgrade for 35
+14:36:23,0.0016574,calculating nonlocalized multimodal upgrade for 36
+14:36:23,0.0018179,calculating nonlocalized multimodal upgrade for 37
+14:36:23,0.0023105,calculating nonlocalized multimodal upgrade for 38
+14:36:23,0.0025138,calculating nonlocalized multimodal upgrade for 39
+14:36:23,0.0021303,calculating nonlocalized multimodal upgrade for 40
+14:36:23,0.0021852,calculating nonlocalized multimodal upgrade for 41
+14:36:23,0.0018707,calculating nonlocalized multimodal upgrade for 42
+14:36:23,0.0022748,calculating nonlocalized multimodal upgrade for 43
+14:36:23,0.0018163,calculating nonlocalized multimodal upgrade for 44
+14:36:23,0.0016864,calculating nonlocalized multimodal upgrade for 45
+14:36:23,0.0021384,calculating nonlocalized multimodal upgrade for 46
+14:36:23,0.0026312,calculating nonlocalized multimodal upgrade for 47
+14:36:23,0.0020121,calculating nonlocalized multimodal upgrade for 48
+14:36:23,0.0024044,calculating nonlocalized multimodal upgrade for 49
+14:36:23,0.00206,calculating nonlocalized multimodal upgrade for 50
+14:36:23,0.0022728,calculating nonlocalized multimodal upgrade for 51
+14:36:23,0.002444,calculating nonlocalized multimodal upgrade for 52
+14:36:23,0.0018567,calculating nonlocalized multimodal upgrade for 53
+14:36:23,0.0019374,calculating nonlocalized multimodal upgrade for 54
+14:36:23,0.0017221,calculating nonlocalized multimodal upgrade for 55
+14:36:23,0.0017297,calculating nonlocalized multimodal upgrade for 56
+14:36:23,0.0017011,calculating nonlocalized multimodal upgrade for 57
+14:36:23,0.0021426,calculating nonlocalized multimodal upgrade for 58
+14:36:23,0.0031613,calculating nonlocalized multimodal upgrade for BASE
+14:36:23,0.0037113,finished calcs for: 100
+14:36:23,0.0004521,starting calcs for glm factor 1000
+14:36:23,0.0001,see .log file for more details
+14:36:23,0.0007929,multimodal solve for inflation factor  1000
+14:36:23,0.0001178,calculating nonlocalized multimodal upgrade for 0
+14:36:23,0.0024111,calculating nonlocalized multimodal upgrade for 1
+14:36:23,0.0018488,calculating nonlocalized multimodal upgrade for 2
+14:36:23,0.0018282,calculating nonlocalized multimodal upgrade for 3
+14:36:23,0.0017983,calculating nonlocalized multimodal upgrade for 4
+14:36:23,0.0016687,calculating nonlocalized multimodal upgrade for 5
+14:36:23,0.003068,calculating nonlocalized multimodal upgrade for 6
+14:36:23,0.0018602,calculating nonlocalized multimodal upgrade for 7
+14:36:23,0.0022992,calculating nonlocalized multimodal upgrade for 8
+14:36:23,0.001851,calculating nonlocalized multimodal upgrade for 9
+14:36:23,0.0017133,calculating nonlocalized multimodal upgrade for 10
+14:36:23,0.0016912,calculating nonlocalized multimodal upgrade for 11
+14:36:23,0.0019875,calculating nonlocalized multimodal upgrade for 12
+14:36:23,0.0018606,calculating nonlocalized multimodal upgrade for 13
+14:36:23,0.0020468,calculating nonlocalized multimodal upgrade for 14
+14:36:23,0.0021594,calculating nonlocalized multimodal upgrade for 15
+14:36:23,0.0018173,calculating nonlocalized multimodal upgrade for 16
+14:36:23,0.0017215,calculating nonlocalized multimodal upgrade for 17
+14:36:23,0.0016607,calculating nonlocalized multimodal upgrade for 18
+14:36:23,0.0016152,calculating nonlocalized multimodal upgrade for 19
+14:36:23,0.0016296,calculating nonlocalized multimodal upgrade for 20
+14:36:23,0.0016487,calculating nonlocalized multimodal upgrade for 21
+14:36:23,0.0016471,calculating nonlocalized multimodal upgrade for 22
+14:36:23,0.0021908,calculating nonlocalized multimodal upgrade for 23
+14:36:23,0.0017698,calculating nonlocalized multimodal upgrade for 24
+14:36:23,0.0017343,calculating nonlocalized multimodal upgrade for 25
+14:36:23,0.001646,calculating nonlocalized multimodal upgrade for 26
+14:36:23,0.0016306,calculating nonlocalized multimodal upgrade for 27
+14:36:23,0.0016336,calculating nonlocalized multimodal upgrade for 28
+14:36:23,0.0016105,calculating nonlocalized multimodal upgrade for 29
+14:36:23,0.0016628,calculating nonlocalized multimodal upgrade for 30
+14:36:23,0.0016759,calculating nonlocalized multimodal upgrade for 31
+14:36:23,0.0016116,calculating nonlocalized multimodal upgrade for 32
+14:36:23,0.0016735,calculating nonlocalized multimodal upgrade for 33
+14:36:23,0.0020402,calculating nonlocalized multimodal upgrade for 34
+14:36:23,0.0019134,calculating nonlocalized multimodal upgrade for 35
+14:36:23,0.0025795,calculating nonlocalized multimodal upgrade for 36
+14:36:23,0.0019399,calculating nonlocalized multimodal upgrade for 37
+14:36:23,0.0017037,calculating nonlocalized multimodal upgrade for 38
+14:36:23,0.0018666,calculating nonlocalized multimodal upgrade for 39
+14:36:23,0.0018947,calculating nonlocalized multimodal upgrade for 40
+14:36:23,0.0019593,calculating nonlocalized multimodal upgrade for 41
+14:36:23,0.0022686,calculating nonlocalized multimodal upgrade for 42
+14:36:23,0.0018873,calculating nonlocalized multimodal upgrade for 43
+14:36:23,0.0017448,calculating nonlocalized multimodal upgrade for 44
+14:36:23,0.00166,calculating nonlocalized multimodal upgrade for 45
+14:36:23,0.0017721,calculating nonlocalized multimodal upgrade for 46
+14:36:23,0.0024249,calculating nonlocalized multimodal upgrade for 47
+14:36:23,0.0021063,calculating nonlocalized multimodal upgrade for 48
+14:36:23,0.0019435,calculating nonlocalized multimodal upgrade for 49
+14:36:23,0.0028332,calculating nonlocalized multimodal upgrade for 50
+14:36:23,0.0018422,calculating nonlocalized multimodal upgrade for 51
+14:36:23,0.0018159,calculating nonlocalized multimodal upgrade for 52
+14:36:23,0.0016928,calculating nonlocalized multimodal upgrade for 53
+14:36:23,0.0022204,calculating nonlocalized multimodal upgrade for 54
+14:36:23,0.0025448,calculating nonlocalized multimodal upgrade for 55
+14:36:23,0.0018761,calculating nonlocalized multimodal upgrade for 56
+14:36:23,0.0018921,calculating nonlocalized multimodal upgrade for 57
+14:36:23,0.0020948,calculating nonlocalized multimodal upgrade for 58
+14:36:23,0.0020188,calculating nonlocalized multimodal upgrade for BASE
+14:36:23,0.0033427,finished calcs for: 1000
+14:36:23,0.0007852,running upgrade ensembles
+14:36:23,8.12e-05,queuing 9 ensembles
+14:36:23,0.011323,subset idx:pe real name:  30:30, 33:33, 38:38, 41:41, 48:48, 59:BASE, 
+14:36:23,0.000496,subset idx:oe real name:  30:30, 33:33, 38:38, 41:41, 48:48, 59:BASE, 
+14:36:23,0.0193044,making runs
+14:39:12,169.27,processing runs
+14:39:12,0.0432231,evaluating upgrade ensembles
+14:39:12,0.0007279,last mean:  81.9468
+14:39:12,0.000702,last stdev:  51.5145
+14:39:12,0.0035077,phi summary for lambda, scale fac:
+14:39:12,0.0035139,phi summary for lambda, scale fac:
+14:39:12,0.0022432,phi summary for lambda, scale fac:
+14:39:12,0.0012473,phi summary for lambda, scale fac:
+14:39:12,0.0021133,phi summary for lambda, scale fac:
+14:39:12,0.0038948,phi summary for lambda, scale fac:
+14:39:12,0.0030745,phi summary for lambda, scale fac:
+14:39:12,0.003198,phi summary for lambda, scale fac:
+14:39:12,0.0022955,phi summary for lambda, scale fac:
+14:39:12,0.0025886,phi summary for best lambda, scale fac: 
+14:39:12,0.0041149,running remaining realizations for best lambda, scale:
+14:39:12,9.98e-05,dropping subset idxs from remaining_pe_lam
+14:39:12,0.0001734,dropping subset idxs from remaining_oe_lam
+14:39:12,0.0002395,queuing 54 runs
+14:39:12,0.0275294,making runs
+14:41:54,161.508,processing runs
+14:41:54,0.012152,assembling ensembles
+14:41:54,0.0010838,updating phi
+14:41:54,0.0033834,phi summary for entire ensemble using lambda,scale_fac 
+14:41:54,0.006342,last best mean phi * acceptable phi factor:  86.0441
+14:41:54,0.0004655,current best mean phi:  38.7409
+14:41:54,0.0005671,updating parameter ensemble
+14:41:54,5.89e-05,updating parameter ensemble
+14:41:54,0.0005068,updating lambda to  7.5
+14:41:54,0.123357,phi-based termination criteria check
+14:41:54,0.0012049,phiredstp:  0.01
+14:41:54,0.0015892,nphistp:  3
+14:41:54,0.0020011,nphinored (also used for consecutive bad lambda cycles):  3
+14:41:54,0.0005705,best mean phi sequence: 
+14:41:54,0.0004915,best phi yet:  38.7409
+14:41:54,0.0004293,number of consecutive bad lambda testing cycles:  0
+14:41:54,0.0013013,number of iterations satisfying phiredstp criteria:  1
+14:41:54,0.0004583,number of iterations since best yet mean phi:  0
+14:41:54,0.0021049,starting solve for iteration: 2
+14:41:54,7.36e-05,starting solve for iteration: 2
+14:41:54,0.0005704,current lambda:  7.5
+14:41:54,0.0001337,subset defined as a percentage of ensemble size, using 6 realizations for subset
+
+14:41:54,4.86e-05,reordering variables in pe
+14:41:54,0.0002858,preparing EnsembleSolver
+14:41:54,0.0003376,getting phi vectors for all weights
+14:41:54,0.0026945,calculating multimodal neighborhoods with 59 realizations
+14:41:54,0.0001173,calculating multimodal neighborhood for realization 30
+14:41:54,4.68e-05,...getting weights
+14:41:54,0.0001359,...getting par distances
+14:41:54,0.0009308,...sorting composite score
+14:41:54,0.0002241,calculating multimodal neighborhood for realization 33
+14:41:54,6.31e-05,...getting weights
+14:41:54,0.0001118,...getting par distances
+14:41:54,0.0001881,...sorting composite score
+14:41:54,0.0001192,calculating multimodal neighborhood for realization 38
+14:41:54,4.94e-05,...getting weights
+14:41:54,0.0001283,...getting par distances
+14:41:54,0.0001875,...sorting composite score
+14:41:54,0.0001198,calculating multimodal neighborhood for realization 41
+14:41:54,4.79e-05,...getting weights
+14:41:54,9.64e-05,...getting par distances
+14:41:54,0.0001782,...sorting composite score
+14:41:54,0.0001133,calculating multimodal neighborhood for realization 48
+14:41:54,4.79e-05,...getting weights
+14:41:54,9.58e-05,...getting par distances
+14:41:54,0.0002018,...sorting composite score
+14:41:54,0.0001332,calculating multimodal neighborhood for realization BASE
+14:41:54,8.94e-05,...getting weights
+14:41:54,4.54e-05,...getting par distances
+14:41:54,0.0001032,...sorting composite score
+14:41:54,9.04e-05,calculating multimodal neighborhood for realization 0
+14:41:54,2.72e-05,...getting weights
+14:41:54,9.2e-05,...getting par distances
+14:41:54,9.98e-05,...sorting composite score
+14:41:54,5.62e-05,calculating multimodal neighborhood for realization 1
+14:41:54,2.33e-05,...getting weights
+14:41:54,4.49e-05,...getting par distances
+14:41:54,8.29e-05,...sorting composite score
+14:41:54,0.0001412,calculating multimodal neighborhood for realization 2
+14:41:54,5.3e-05,...getting weights
+14:41:54,9.24e-05,...getting par distances
+14:41:54,0.0001734,...sorting composite score
+14:41:54,0.00014,calculating multimodal neighborhood for realization 3
+14:41:54,5.12e-05,...getting weights
+14:41:54,9e-05,...getting par distances
+14:41:54,0.0001737,...sorting composite score
+14:41:54,0.0001118,calculating multimodal neighborhood for realization 4
+14:41:54,4.8e-05,...getting weights
+14:41:54,8.86e-05,...getting par distances
+14:41:54,0.0001723,...sorting composite score
+14:41:54,0.0001121,calculating multimodal neighborhood for realization 5
+14:41:54,4.8e-05,...getting weights
+14:41:54,8.76e-05,...getting par distances
+14:41:54,0.000171,...sorting composite score
+14:41:54,0.0001121,calculating multimodal neighborhood for realization 6
+14:41:54,6.21e-05,...getting weights
+14:41:54,9.86e-05,...getting par distances
+14:41:54,0.0001713,...sorting composite score
+14:41:54,0.0001136,calculating multimodal neighborhood for realization 7
+14:41:54,4.9e-05,...getting weights
+14:41:54,8.94e-05,...getting par distances
+14:41:54,0.0001893,...sorting composite score
+14:41:54,0.0001184,calculating multimodal neighborhood for realization 8
+14:41:54,4.86e-05,...getting weights
+14:41:54,0.0001574,...getting par distances
+14:41:54,0.0001725,...sorting composite score
+14:41:54,0.0001131,calculating multimodal neighborhood for realization 9
+14:41:54,4.89e-05,...getting weights
+14:41:54,8.92e-05,...getting par distances
+14:41:54,0.0001646,...sorting composite score
+14:41:54,0.0001097,calculating multimodal neighborhood for realization 10
+14:41:54,4.81e-05,...getting weights
+14:41:54,0.0002823,...getting par distances
+14:41:54,0.0002353,...sorting composite score
+14:41:54,0.0001286,calculating multimodal neighborhood for realization 11
+14:41:54,5.04e-05,...getting weights
+14:41:54,9.06e-05,...getting par distances
+14:41:54,0.0011577,...sorting composite score
+14:41:54,0.0001842,calculating multimodal neighborhood for realization 12
+14:41:54,6.05e-05,...getting weights
+14:41:54,9.52e-05,...getting par distances
+14:41:54,0.0001719,...sorting composite score
+14:41:54,0.0001135,calculating multimodal neighborhood for realization 13
+14:41:54,4.95e-05,...getting weights
+14:41:54,9.1e-05,...getting par distances
+14:41:54,0.0001989,...sorting composite score
+14:41:54,0.0001176,calculating multimodal neighborhood for realization 14
+14:41:54,4.94e-05,...getting weights
+14:41:54,9.08e-05,...getting par distances
+14:41:54,0.000169,...sorting composite score
+14:41:54,0.0001142,calculating multimodal neighborhood for realization 15
+14:41:54,4.87e-05,...getting weights
+14:41:54,9.11e-05,...getting par distances
+14:41:54,0.0001658,...sorting composite score
+14:41:54,0.0001128,calculating multimodal neighborhood for realization 16
+14:41:54,4.91e-05,...getting weights
+14:41:54,0.0001316,...getting par distances
+14:41:54,0.0001693,...sorting composite score
+14:41:54,0.0001415,calculating multimodal neighborhood for realization 17
+14:41:54,5.33e-05,...getting weights
+14:41:54,8.95e-05,...getting par distances
+14:41:54,0.0001652,...sorting composite score
+14:41:54,0.0001118,calculating multimodal neighborhood for realization 18
+14:41:54,4.89e-05,...getting weights
+14:41:54,0.0001262,...getting par distances
+14:41:54,0.0002311,...sorting composite score
+14:41:54,0.0001799,calculating multimodal neighborhood for realization 19
+14:41:54,6.22e-05,...getting weights
+14:41:54,9.22e-05,...getting par distances
+14:41:54,0.0001672,...sorting composite score
+14:41:54,0.0001132,calculating multimodal neighborhood for realization 20
+14:41:54,4.84e-05,...getting weights
+14:41:54,8.93e-05,...getting par distances
+14:41:54,0.0001676,...sorting composite score
+14:41:54,0.0001131,calculating multimodal neighborhood for realization 21
+14:41:54,4.92e-05,...getting weights
+14:41:54,8.93e-05,...getting par distances
+14:41:54,0.0001666,...sorting composite score
+14:41:54,0.000112,calculating multimodal neighborhood for realization 22
+14:41:54,4.91e-05,...getting weights
+14:41:54,8.93e-05,...getting par distances
+14:41:54,0.0001952,...sorting composite score
+14:41:54,0.0001156,calculating multimodal neighborhood for realization 23
+14:41:54,4.9e-05,...getting weights
+14:41:54,9.15e-05,...getting par distances
+14:41:54,0.0001631,...sorting composite score
+14:41:54,0.0001115,calculating multimodal neighborhood for realization 24
+14:41:54,4.88e-05,...getting weights
+14:41:54,0.0001496,...getting par distances
+14:41:54,0.0001662,...sorting composite score
+14:41:54,0.0001161,calculating multimodal neighborhood for realization 25
+14:41:54,4.93e-05,...getting weights
+14:41:54,8.82e-05,...getting par distances
+14:41:54,0.0001629,...sorting composite score
+14:41:54,0.000141,calculating multimodal neighborhood for realization 26
+14:41:54,6.62e-05,...getting weights
+14:41:54,9.76e-05,...getting par distances
+14:41:54,0.0001638,...sorting composite score
+14:41:54,0.0001126,calculating multimodal neighborhood for realization 27
+14:41:54,8.27e-05,...getting weights
+14:41:54,0.0001371,...getting par distances
+14:41:54,0.0005105,...sorting composite score
+14:41:54,0.0002559,calculating multimodal neighborhood for realization 28
+14:41:54,0.0002952,...getting weights
+14:41:54,0.000137,...getting par distances
+14:41:54,0.0001763,...sorting composite score
+14:41:54,0.0001209,calculating multimodal neighborhood for realization 29
+14:41:54,5.23e-05,...getting weights
+14:41:54,9.3e-05,...getting par distances
+14:41:54,0.000164,...sorting composite score
+14:41:54,0.000155,calculating multimodal neighborhood for realization 31
+14:41:54,9.04e-05,...getting weights
+14:41:54,9.8e-05,...getting par distances
+14:41:54,0.0001657,...sorting composite score
+14:41:54,0.0001143,calculating multimodal neighborhood for realization 32
+14:41:54,4.91e-05,...getting weights
+14:41:54,9.24e-05,...getting par distances
+14:41:54,0.0001621,...sorting composite score
+14:41:54,0.0001114,calculating multimodal neighborhood for realization 34
+14:41:54,4.77e-05,...getting weights
+14:41:54,0.000157,...getting par distances
+14:41:54,0.0001718,...sorting composite score
+14:41:54,0.0001109,calculating multimodal neighborhood for realization 35
+14:41:54,4.85e-05,...getting weights
+14:41:54,8.93e-05,...getting par distances
+14:41:54,0.0001658,...sorting composite score
+14:41:54,0.0001102,calculating multimodal neighborhood for realization 36
+14:41:54,4.73e-05,...getting weights
+14:41:54,0.0001146,...getting par distances
+14:41:54,0.0001694,...sorting composite score
+14:41:54,0.0001103,calculating multimodal neighborhood for realization 37
+14:41:54,4.71e-05,...getting weights
+14:41:54,8.65e-05,...getting par distances
+14:41:54,0.0001631,...sorting composite score
+14:41:54,0.0001113,calculating multimodal neighborhood for realization 39
+14:41:54,4.75e-05,...getting weights
+14:41:54,8.67e-05,...getting par distances
+14:41:54,0.0001629,...sorting composite score
+14:41:54,0.0001129,calculating multimodal neighborhood for realization 40
+14:41:54,4.98e-05,...getting weights
+14:41:54,8.78e-05,...getting par distances
+14:41:54,0.0001637,...sorting composite score
+14:41:54,0.0001147,calculating multimodal neighborhood for realization 42
+14:41:54,4.91e-05,...getting weights
+14:41:54,8.67e-05,...getting par distances
+14:41:54,0.000163,...sorting composite score
+14:41:54,0.0001124,calculating multimodal neighborhood for realization 43
+14:41:54,8.47e-05,...getting weights
+14:41:54,9.17e-05,...getting par distances
+14:41:54,0.00017,...sorting composite score
+14:41:54,0.0001169,calculating multimodal neighborhood for realization 44
+14:41:54,5.02e-05,...getting weights
+14:41:54,0.0001198,...getting par distances
+14:41:54,0.0004845,...sorting composite score
+14:41:54,0.0003193,calculating multimodal neighborhood for realization 45
+14:41:54,6.6e-05,...getting weights
+14:41:54,0.0001114,...getting par distances
+14:41:54,0.0001919,...sorting composite score
+14:41:54,0.000123,calculating multimodal neighborhood for realization 46
+14:41:54,7.17e-05,...getting weights
+14:41:54,0.0001181,...getting par distances
+14:41:54,8.77e-05,...sorting composite score
+14:41:54,3.58e-05,calculating multimodal neighborhood for realization 47
+14:41:54,1.55e-05,...getting weights
+14:41:54,2.9e-05,...getting par distances
+14:41:54,5.03e-05,...sorting composite score
+14:41:54,3.49e-05,calculating multimodal neighborhood for realization 49
+14:41:54,1.52e-05,...getting weights
+14:41:54,2.81e-05,...getting par distances
+14:41:54,4.97e-05,...sorting composite score
+14:41:54,3.45e-05,calculating multimodal neighborhood for realization 50
+14:41:54,1.56e-05,...getting weights
+14:41:54,2.8e-05,...getting par distances
+14:41:54,5.02e-05,...sorting composite score
+14:41:54,3.59e-05,calculating multimodal neighborhood for realization 51
+14:41:54,2.08e-05,...getting weights
+14:41:54,3.13e-05,...getting par distances
+14:41:54,0.0001368,...sorting composite score
+14:41:54,9.96e-05,calculating multimodal neighborhood for realization 52
+14:41:54,1.53e-05,...getting weights
+14:41:54,8.04e-05,...getting par distances
+14:41:54,0.0001632,...sorting composite score
+14:41:54,0.0001138,calculating multimodal neighborhood for realization 53
+14:41:54,5.05e-05,...getting weights
+14:41:54,0.000154,...getting par distances
+14:41:54,0.0001716,...sorting composite score
+14:41:54,8.36e-05,calculating multimodal neighborhood for realization 54
+14:41:54,5e-05,...getting weights
+14:41:54,8.94e-05,...getting par distances
+14:41:54,0.0001887,...sorting composite score
+14:41:54,0.0001181,calculating multimodal neighborhood for realization 55
+14:41:54,5.07e-05,...getting weights
+14:41:54,8.71e-05,...getting par distances
+14:41:54,0.0001611,...sorting composite score
+14:41:54,0.0001097,calculating multimodal neighborhood for realization 56
+14:41:54,4.89e-05,...getting weights
+14:41:54,8.54e-05,...getting par distances
+14:41:54,0.0001617,...sorting composite score
+14:41:54,0.0001113,calculating multimodal neighborhood for realization 57
+14:41:54,4.88e-05,...getting weights
+14:41:54,8.65e-05,...getting par distances
+14:41:54,0.0001614,...sorting composite score
+14:41:54,0.0001116,calculating multimodal neighborhood for realization 58
+14:41:54,4.91e-05,...getting weights
+14:41:54,8.54e-05,...getting par distances
+14:41:54,0.0001599,...sorting composite score
+14:41:54,0.0012006,starting calcs for glm factor 0.75
+14:41:54,0.0001021,see .log file for more details
+14:41:54,0.0007298,multimodal solve for inflation factor  0.75
+14:41:54,0.0001116,calculating nonlocalized multimodal upgrade for 30
+14:41:54,0.0018285,calculating nonlocalized multimodal upgrade for 33
+14:41:54,0.0014649,calculating nonlocalized multimodal upgrade for 38
+14:41:54,0.0017526,calculating nonlocalized multimodal upgrade for 41
+14:41:54,0.0020484,calculating nonlocalized multimodal upgrade for 48
+14:41:54,0.0019436,calculating nonlocalized multimodal upgrade for BASE
+14:41:54,0.0016693,calculating nonlocalized multimodal upgrade for 0
+14:41:54,0.0015767,calculating nonlocalized multimodal upgrade for 1
+14:41:54,0.0015694,calculating nonlocalized multimodal upgrade for 2
+14:41:54,0.0015102,calculating nonlocalized multimodal upgrade for 3
+14:41:54,0.0012157,calculating nonlocalized multimodal upgrade for 4
+14:41:54,0.0012424,calculating nonlocalized multimodal upgrade for 5
+14:41:54,0.001385,calculating nonlocalized multimodal upgrade for 6
+14:41:54,0.0010952,calculating nonlocalized multimodal upgrade for 7
+14:41:54,0.0010054,calculating nonlocalized multimodal upgrade for 8
+14:41:54,0.0008749,calculating nonlocalized multimodal upgrade for 9
+14:41:54,0.0014239,calculating nonlocalized multimodal upgrade for 10
+14:41:54,0.0015457,calculating nonlocalized multimodal upgrade for 11
+14:41:54,0.0016304,calculating nonlocalized multimodal upgrade for 12
+14:41:54,0.0015786,calculating nonlocalized multimodal upgrade for 13
+14:41:54,0.001554,calculating nonlocalized multimodal upgrade for 14
+14:41:54,0.0013514,calculating nonlocalized multimodal upgrade for 15
+14:41:54,0.0016029,calculating nonlocalized multimodal upgrade for 16
+14:41:54,0.0009996,calculating nonlocalized multimodal upgrade for 17
+14:41:54,0.0011251,calculating nonlocalized multimodal upgrade for 18
+14:41:54,0.0012688,calculating nonlocalized multimodal upgrade for 19
+14:41:54,0.0012686,calculating nonlocalized multimodal upgrade for 20
+14:41:54,0.0011332,calculating nonlocalized multimodal upgrade for 21
+14:41:54,0.0009016,calculating nonlocalized multimodal upgrade for 22
+14:41:54,0.0005884,calculating nonlocalized multimodal upgrade for 23
+14:41:54,0.0008589,calculating nonlocalized multimodal upgrade for 24
+14:41:54,0.0012783,calculating nonlocalized multimodal upgrade for 25
+14:41:54,0.0015147,calculating nonlocalized multimodal upgrade for 26
+14:41:54,0.0009782,calculating nonlocalized multimodal upgrade for 27
+14:41:54,0.0017992,calculating nonlocalized multimodal upgrade for 28
+14:41:54,0.0017932,calculating nonlocalized multimodal upgrade for 29
+14:41:54,0.0025617,calculating nonlocalized multimodal upgrade for 31
+14:41:54,0.0025948,calculating nonlocalized multimodal upgrade for 32
+14:41:54,0.0009295,calculating nonlocalized multimodal upgrade for 34
+14:41:54,0.0008067,calculating nonlocalized multimodal upgrade for 35
+14:41:54,0.0009161,calculating nonlocalized multimodal upgrade for 36
+14:41:54,0.0006236,calculating nonlocalized multimodal upgrade for 37
+14:41:54,0.0005898,calculating nonlocalized multimodal upgrade for 39
+14:41:54,0.0014066,calculating nonlocalized multimodal upgrade for 40
+14:41:54,0.0015458,calculating nonlocalized multimodal upgrade for 42
+14:41:54,0.000661,calculating nonlocalized multimodal upgrade for 43
+14:41:54,0.0015219,calculating nonlocalized multimodal upgrade for 44
+14:41:54,0.0015617,calculating nonlocalized multimodal upgrade for 45
+14:41:54,0.001011,calculating nonlocalized multimodal upgrade for 46
+14:41:54,0.0005788,calculating nonlocalized multimodal upgrade for 47
+14:41:54,0.0005582,calculating nonlocalized multimodal upgrade for 49
+14:41:54,0.0005609,calculating nonlocalized multimodal upgrade for 50
+14:41:54,0.000991,calculating nonlocalized multimodal upgrade for 51
+14:41:54,0.0012215,calculating nonlocalized multimodal upgrade for 52
+14:41:54,0.0013361,calculating nonlocalized multimodal upgrade for 53
+14:41:54,0.0006535,calculating nonlocalized multimodal upgrade for 54
+14:41:54,0.0006523,calculating nonlocalized multimodal upgrade for 55
+14:41:54,0.0010483,calculating nonlocalized multimodal upgrade for 56
+14:41:54,0.0007034,calculating nonlocalized multimodal upgrade for 57
+14:41:54,0.0016268,calculating nonlocalized multimodal upgrade for 58
+14:41:54,0.0031608,finished calcs for: 0.75
+14:41:54,0.0002808,starting calcs for glm factor 7.5
+14:41:54,3.87e-05,see .log file for more details
+14:41:54,0.0005752,multimodal solve for inflation factor  7.5
+14:41:54,8.2e-05,calculating nonlocalized multimodal upgrade for 30
+14:41:54,0.0017558,calculating nonlocalized multimodal upgrade for 33
+14:41:54,0.0016114,calculating nonlocalized multimodal upgrade for 38
+14:41:54,0.0008828,calculating nonlocalized multimodal upgrade for 41
+14:41:54,0.0005318,calculating nonlocalized multimodal upgrade for 48
+14:41:54,0.0006183,calculating nonlocalized multimodal upgrade for BASE
+14:41:54,0.0005449,calculating nonlocalized multimodal upgrade for 0
+14:41:54,0.0005293,calculating nonlocalized multimodal upgrade for 1
+14:41:54,0.0005649,calculating nonlocalized multimodal upgrade for 2
+14:41:54,0.000522,calculating nonlocalized multimodal upgrade for 3
+14:41:54,0.0005451,calculating nonlocalized multimodal upgrade for 4
+14:41:54,0.0005485,calculating nonlocalized multimodal upgrade for 5
+14:41:54,0.0005413,calculating nonlocalized multimodal upgrade for 6
+14:41:54,0.0005388,calculating nonlocalized multimodal upgrade for 7
+14:41:54,0.0005453,calculating nonlocalized multimodal upgrade for 8
+14:41:54,0.0005207,calculating nonlocalized multimodal upgrade for 9
+14:41:54,0.0005478,calculating nonlocalized multimodal upgrade for 10
+14:41:54,0.0005264,calculating nonlocalized multimodal upgrade for 11
+14:41:54,0.0005578,calculating nonlocalized multimodal upgrade for 12
+14:41:54,0.000531,calculating nonlocalized multimodal upgrade for 13
+14:41:54,0.0005125,calculating nonlocalized multimodal upgrade for 14
+14:41:54,0.000531,calculating nonlocalized multimodal upgrade for 15
+14:41:54,0.000502,calculating nonlocalized multimodal upgrade for 16
+14:41:54,0.0004685,calculating nonlocalized multimodal upgrade for 17
+14:41:54,0.0004645,calculating nonlocalized multimodal upgrade for 18
+14:41:54,0.0004672,calculating nonlocalized multimodal upgrade for 19
+14:41:54,0.0004727,calculating nonlocalized multimodal upgrade for 20
+14:41:54,0.0004809,calculating nonlocalized multimodal upgrade for 21
+14:41:54,0.0005038,calculating nonlocalized multimodal upgrade for 22
+14:41:54,0.000524,calculating nonlocalized multimodal upgrade for 23
+14:41:54,0.0012276,calculating nonlocalized multimodal upgrade for 24
+14:41:54,0.0012758,calculating nonlocalized multimodal upgrade for 25
+14:41:54,0.0014811,calculating nonlocalized multimodal upgrade for 26
+14:41:54,0.001505,calculating nonlocalized multimodal upgrade for 27
+14:41:54,0.0013765,calculating nonlocalized multimodal upgrade for 28
+14:41:54,0.0016542,calculating nonlocalized multimodal upgrade for 29
+14:41:54,0.0009074,calculating nonlocalized multimodal upgrade for 31
+14:41:54,0.0008615,calculating nonlocalized multimodal upgrade for 32
+14:41:54,0.0008664,calculating nonlocalized multimodal upgrade for 34
+14:41:54,0.0007882,calculating nonlocalized multimodal upgrade for 35
+14:41:54,0.0009787,calculating nonlocalized multimodal upgrade for 36
+14:41:54,0.0014721,calculating nonlocalized multimodal upgrade for 37
+14:41:54,0.0015059,calculating nonlocalized multimodal upgrade for 39
+14:41:54,0.0012918,calculating nonlocalized multimodal upgrade for 40
+14:41:54,0.0016319,calculating nonlocalized multimodal upgrade for 42
+14:41:54,0.0016362,calculating nonlocalized multimodal upgrade for 43
+14:41:54,0.0015982,calculating nonlocalized multimodal upgrade for 44
+14:41:54,0.0015185,calculating nonlocalized multimodal upgrade for 45
+14:41:54,0.0014005,calculating nonlocalized multimodal upgrade for 46
+14:41:54,0.0015651,calculating nonlocalized multimodal upgrade for 47
+14:41:54,0.0016038,calculating nonlocalized multimodal upgrade for 49
+14:41:54,0.0015408,calculating nonlocalized multimodal upgrade for 50
+14:41:54,0.0015506,calculating nonlocalized multimodal upgrade for 51
+14:41:54,0.0015626,calculating nonlocalized multimodal upgrade for 52
+14:41:54,0.0015642,calculating nonlocalized multimodal upgrade for 53
+14:41:54,0.0015673,calculating nonlocalized multimodal upgrade for 54
+14:41:54,0.0015273,calculating nonlocalized multimodal upgrade for 55
+14:41:54,0.0015568,calculating nonlocalized multimodal upgrade for 56
+14:41:54,0.001449,calculating nonlocalized multimodal upgrade for 57
+14:41:54,0.0012023,calculating nonlocalized multimodal upgrade for 58
+14:41:54,0.0033739,finished calcs for: 7.5
+14:41:54,0.0007198,starting calcs for glm factor 75
+14:41:54,0.0001014,see .log file for more details
+14:41:54,0.0005723,multimodal solve for inflation factor  75
+14:41:54,0.0001201,calculating nonlocalized multimodal upgrade for 30
+14:41:54,0.0016698,calculating nonlocalized multimodal upgrade for 33
+14:41:54,0.0015545,calculating nonlocalized multimodal upgrade for 38
+14:41:54,0.0015265,calculating nonlocalized multimodal upgrade for 41
+14:41:54,0.0015375,calculating nonlocalized multimodal upgrade for 48
+14:41:54,0.0015303,calculating nonlocalized multimodal upgrade for BASE
+14:41:54,0.0014935,calculating nonlocalized multimodal upgrade for 0
+14:41:54,0.0017058,calculating nonlocalized multimodal upgrade for 1
+14:41:54,0.0009039,calculating nonlocalized multimodal upgrade for 2
+14:41:54,0.0015424,calculating nonlocalized multimodal upgrade for 3
+14:41:54,0.0014562,calculating nonlocalized multimodal upgrade for 4
+14:41:54,0.0016461,calculating nonlocalized multimodal upgrade for 5
+14:41:54,0.0016388,calculating nonlocalized multimodal upgrade for 6
+14:41:54,0.0016178,calculating nonlocalized multimodal upgrade for 7
+14:41:54,0.001618,calculating nonlocalized multimodal upgrade for 8
+14:41:54,0.0015559,calculating nonlocalized multimodal upgrade for 9
+14:41:54,0.0015792,calculating nonlocalized multimodal upgrade for 10
+14:41:54,0.0031612,calculating nonlocalized multimodal upgrade for 11
+14:41:54,0.0018655,calculating nonlocalized multimodal upgrade for 12
+14:41:54,0.0016744,calculating nonlocalized multimodal upgrade for 13
+14:41:54,0.0021028,calculating nonlocalized multimodal upgrade for 14
+14:41:54,0.001844,calculating nonlocalized multimodal upgrade for 15
+14:41:54,0.0018831,calculating nonlocalized multimodal upgrade for 16
+14:41:54,0.0030195,calculating nonlocalized multimodal upgrade for 17
+14:41:54,0.0047033,calculating nonlocalized multimodal upgrade for 18
+14:41:54,0.0017977,calculating nonlocalized multimodal upgrade for 19
+14:41:54,0.0015442,calculating nonlocalized multimodal upgrade for 20
+14:41:54,0.0027599,calculating nonlocalized multimodal upgrade for 21
+14:41:54,0.0017226,calculating nonlocalized multimodal upgrade for 22
+14:41:54,0.0022158,calculating nonlocalized multimodal upgrade for 23
+14:41:54,0.0017563,calculating nonlocalized multimodal upgrade for 24
+14:41:54,0.0016333,calculating nonlocalized multimodal upgrade for 25
+14:41:54,0.0031328,calculating nonlocalized multimodal upgrade for 26
+14:41:54,0.0019077,calculating nonlocalized multimodal upgrade for 27
+14:41:54,0.0019348,calculating nonlocalized multimodal upgrade for 28
+14:41:54,0.0016843,calculating nonlocalized multimodal upgrade for 29
+14:41:54,0.0016695,calculating nonlocalized multimodal upgrade for 31
+14:41:54,0.0016214,calculating nonlocalized multimodal upgrade for 32
+14:41:54,0.0016025,calculating nonlocalized multimodal upgrade for 34
+14:41:54,0.0018264,calculating nonlocalized multimodal upgrade for 35
+14:41:54,0.0021226,calculating nonlocalized multimodal upgrade for 36
+14:41:54,0.0020648,calculating nonlocalized multimodal upgrade for 37
+14:41:54,0.0018164,calculating nonlocalized multimodal upgrade for 39
+14:41:54,0.0016125,calculating nonlocalized multimodal upgrade for 40
+14:41:54,0.0046773,calculating nonlocalized multimodal upgrade for 42
+14:41:54,0.0019459,calculating nonlocalized multimodal upgrade for 43
+14:41:54,0.0017203,calculating nonlocalized multimodal upgrade for 44
+14:41:54,0.0021537,calculating nonlocalized multimodal upgrade for 45
+14:41:54,0.0019689,calculating nonlocalized multimodal upgrade for 46
+14:41:54,0.001966,calculating nonlocalized multimodal upgrade for 47
+14:41:54,0.0017724,calculating nonlocalized multimodal upgrade for 49
+14:41:54,0.0017069,calculating nonlocalized multimodal upgrade for 50
+14:41:54,0.0017121,calculating nonlocalized multimodal upgrade for 51
+14:41:54,0.0017236,calculating nonlocalized multimodal upgrade for 52
+14:41:54,0.0016949,calculating nonlocalized multimodal upgrade for 53
+14:41:54,0.001703,calculating nonlocalized multimodal upgrade for 54
+14:41:54,0.0017044,calculating nonlocalized multimodal upgrade for 55
+14:41:54,0.0016861,calculating nonlocalized multimodal upgrade for 56
+14:41:54,0.0017992,calculating nonlocalized multimodal upgrade for 57
+14:41:54,0.0019791,calculating nonlocalized multimodal upgrade for 58
+14:41:54,0.003327,finished calcs for: 75
+14:41:54,0.0005132,running upgrade ensembles
+14:41:54,6.88e-05,queuing 9 ensembles
+14:41:54,0.0088595,subset idx:pe real name:  5:BASE, 21:15, 25:19, 33:27, 50:49, 56:55, 
+14:41:54,0.0011919,subset idx:oe real name:  5:BASE, 21:15, 25:19, 33:27, 50:49, 56:55, 
+14:41:54,0.0177517,making runs
+14:44:20,145.506,processing runs
+14:44:20,0.0412665,evaluating upgrade ensembles
+14:44:20,0.0005004,last mean:  38.7409
+14:44:20,0.0004883,last stdev:  12.5131
+14:44:20,0.0036605,phi summary for lambda, scale fac:
+14:44:20,0.0039077,phi summary for lambda, scale fac:
+14:44:20,0.0053108,phi summary for lambda, scale fac:
+14:44:20,0.0025414,phi summary for lambda, scale fac:
+14:44:20,0.002448,phi summary for lambda, scale fac:
+14:44:20,0.0024604,phi summary for lambda, scale fac:
+14:44:20,0.0024105,phi summary for lambda, scale fac:
+14:44:20,0.0022784,phi summary for lambda, scale fac:
+14:44:20,0.0027621,phi summary for lambda, scale fac:
+14:44:20,0.0028448,phi summary for best lambda, scale fac: 
+14:44:20,0.0032323,running remaining realizations for best lambda, scale:
+14:44:20,6.17e-05,dropping subset idxs from remaining_pe_lam
+14:44:20,0.0001633,dropping subset idxs from remaining_oe_lam
+14:44:20,0.0001985,queuing 54 runs
+14:44:20,0.0264751,making runs
+14:46:50,150.342,processing runs
+14:46:50,0.0114543,assembling ensembles
+14:46:50,0.0014154,updating phi
+14:46:50,0.0036633,phi summary for entire ensemble using lambda,scale_fac 
+14:46:50,0.0103317,last best mean phi * acceptable phi factor:  40.678
+14:46:50,0.0043838,current best mean phi:  27.1203
+14:46:50,0.0010664,updating parameter ensemble
+14:46:50,7.52e-05,updating parameter ensemble
+14:46:50,0.001077,updating lambda to  0.5625
+14:46:50,0.125126,phi-based termination criteria check
+14:46:50,0.0007277,phiredstp:  0.01
+14:46:50,0.0006517,nphistp:  3
+14:46:50,0.0006652,nphinored (also used for consecutive bad lambda cycles):  3
+14:46:50,0.0004416,best mean phi sequence: 
+14:46:50,0.0007322,best phi yet:  27.1203
+14:46:50,0.0007311,number of consecutive bad lambda testing cycles:  0
+14:46:50,0.0004941,number of iterations satisfying phiredstp criteria:  1
+14:46:50,0.0006639,number of iterations since best yet mean phi:  0
+14:46:50,0.001106,starting solve for iteration: 3
+14:46:50,6.98e-05,starting solve for iteration: 3
+14:46:50,0.000684,current lambda:  0.5625
+14:46:50,0.0001121,subset defined as a percentage of ensemble size, using 6 realizations for subset
+
+14:46:50,5.31e-05,reordering variables in pe
+14:46:50,0.000267,preparing EnsembleSolver
+14:46:50,0.0015197,getting phi vectors for all weights
+14:46:50,0.0030011,calculating multimodal neighborhoods with 59 realizations
+14:46:50,0.0001612,calculating multimodal neighborhood for realization BASE
+14:46:50,5.61e-05,...getting weights
+14:46:50,0.0001121,...getting par distances
+14:46:50,0.000205,...sorting composite score
+14:46:50,0.0001568,calculating multimodal neighborhood for realization 15
+14:46:50,5.86e-05,...getting weights
+14:46:50,0.0001042,...getting par distances
+14:46:50,0.0005862,...sorting composite score
+14:46:50,0.0001692,calculating multimodal neighborhood for realization 19
+14:46:50,5.73e-05,...getting weights
+14:46:50,0.0001146,...getting par distances
+14:46:50,0.0001867,...sorting composite score
+14:46:50,0.0001154,calculating multimodal neighborhood for realization 27
+14:46:50,4.82e-05,...getting weights
+14:46:50,9.75e-05,...getting par distances
+14:46:50,0.0001831,...sorting composite score
+14:46:50,0.0001133,calculating multimodal neighborhood for realization 49
+14:46:50,4.67e-05,...getting weights
+14:46:50,9.56e-05,...getting par distances
+14:46:50,0.0001789,...sorting composite score
+14:46:50,0.000148,calculating multimodal neighborhood for realization 55
+14:46:50,5.76e-05,...getting weights
+14:46:50,9.49e-05,...getting par distances
+14:46:50,0.0001809,...sorting composite score
+14:46:50,0.0001173,calculating multimodal neighborhood for realization 30
+14:46:50,4.92e-05,...getting weights
+14:46:50,0.0001649,...getting par distances
+14:46:50,0.0001832,...sorting composite score
+14:46:50,0.0001126,calculating multimodal neighborhood for realization 33
+14:46:50,4.81e-05,...getting weights
+14:46:50,8.94e-05,...getting par distances
+14:46:50,0.0001706,...sorting composite score
+14:46:50,0.0001093,calculating multimodal neighborhood for realization 38
+14:46:50,4.97e-05,...getting weights
+14:46:50,8.89e-05,...getting par distances
+14:46:50,0.0001724,...sorting composite score
+14:46:50,0.0001173,calculating multimodal neighborhood for realization 41
+14:46:50,4.77e-05,...getting weights
+14:46:50,0.0003987,...getting par distances
+14:46:50,0.0002658,...sorting composite score
+14:46:50,0.0001388,calculating multimodal neighborhood for realization 48
+14:46:50,5.65e-05,...getting weights
+14:46:50,0.0001129,...getting par distances
+14:46:50,0.0001875,...sorting composite score
+14:46:50,0.0001184,calculating multimodal neighborhood for realization 0
+14:46:50,5.05e-05,...getting weights
+14:46:50,0.0001017,...getting par distances
+14:46:50,0.000186,...sorting composite score
+14:46:50,0.0001176,calculating multimodal neighborhood for realization 1
+14:46:50,4.74e-05,...getting weights
+14:46:50,9.73e-05,...getting par distances
+14:46:50,0.0002054,...sorting composite score
+14:46:50,0.0001716,calculating multimodal neighborhood for realization 2
+14:46:50,9.79e-05,...getting weights
+14:46:50,7.1e-05,...getting par distances
+14:46:50,0.0001449,...sorting composite score
+14:46:50,0.0001281,calculating multimodal neighborhood for realization 3
+14:46:50,5.65e-05,...getting weights
+14:46:50,0.0001491,...getting par distances
+14:46:50,0.000226,...sorting composite score
+14:46:50,8.72e-05,calculating multimodal neighborhood for realization 4
+14:46:50,3.19e-05,...getting weights
+14:46:50,6.18e-05,...getting par distances
+14:46:50,5.81e-05,...sorting composite score
+14:46:50,3.36e-05,calculating multimodal neighborhood for realization 5
+14:46:50,1.41e-05,...getting weights
+14:46:50,2.84e-05,...getting par distances
+14:46:50,5.27e-05,...sorting composite score
+14:46:50,4.85e-05,calculating multimodal neighborhood for realization 6
+14:46:50,3.71e-05,...getting weights
+14:46:50,9.41e-05,...getting par distances
+14:46:50,0.0001715,...sorting composite score
+14:46:50,0.0001087,calculating multimodal neighborhood for realization 7
+14:46:50,4.64e-05,...getting weights
+14:46:50,0.0003035,...getting par distances
+14:46:50,0.0001867,...sorting composite score
+14:46:50,0.0001169,calculating multimodal neighborhood for realization 8
+14:46:50,5.28e-05,...getting weights
+14:46:50,9.53e-05,...getting par distances
+14:46:50,0.0001708,...sorting composite score
+14:46:50,0.00011,calculating multimodal neighborhood for realization 9
+14:46:50,5.06e-05,...getting weights
+14:46:50,9.4e-05,...getting par distances
+14:46:50,0.0001693,...sorting composite score
+14:46:50,0.0001091,calculating multimodal neighborhood for realization 10
+14:46:50,4.58e-05,...getting weights
+14:46:50,8.89e-05,...getting par distances
+14:46:50,0.000172,...sorting composite score
+14:46:50,0.0001109,calculating multimodal neighborhood for realization 11
+14:46:50,4.69e-05,...getting weights
+14:46:50,0.0001843,...getting par distances
+14:46:50,0.0001823,...sorting composite score
+14:46:50,0.0001197,calculating multimodal neighborhood for realization 12
+14:46:50,5e-05,...getting weights
+14:46:50,9.21e-05,...getting par distances
+14:46:50,0.0001705,...sorting composite score
+14:46:50,0.0001116,calculating multimodal neighborhood for realization 13
+14:46:50,4.85e-05,...getting weights
+14:46:50,9.1e-05,...getting par distances
+14:46:50,0.0001695,...sorting composite score
+14:46:50,0.0001117,calculating multimodal neighborhood for realization 14
+14:46:50,4.72e-05,...getting weights
+14:46:50,8.94e-05,...getting par distances
+14:46:50,0.0001645,...sorting composite score
+14:46:50,0.0001104,calculating multimodal neighborhood for realization 16
+14:46:50,4.67e-05,...getting weights
+14:46:50,8.93e-05,...getting par distances
+14:46:50,0.0001644,...sorting composite score
+14:46:50,0.0001304,calculating multimodal neighborhood for realization 17
+14:46:50,5.09e-05,...getting weights
+14:46:50,9.09e-05,...getting par distances
+14:46:50,0.0001639,...sorting composite score
+14:46:50,0.0001115,calculating multimodal neighborhood for realization 18
+14:46:50,5e-05,...getting weights
+14:46:50,9.08e-05,...getting par distances
+14:46:50,0.0001681,...sorting composite score
+14:46:50,0.0001142,calculating multimodal neighborhood for realization 20
+14:46:50,4.59e-05,...getting weights
+14:46:50,8.95e-05,...getting par distances
+14:46:50,0.0001652,...sorting composite score
+14:46:50,0.0001073,calculating multimodal neighborhood for realization 21
+14:46:50,4.6e-05,...getting weights
+14:46:50,0.0001482,...getting par distances
+14:46:50,0.0001686,...sorting composite score
+14:46:50,0.0001099,calculating multimodal neighborhood for realization 22
+14:46:50,5.2e-05,...getting weights
+14:46:50,9.03e-05,...getting par distances
+14:46:50,0.0015114,...sorting composite score
+14:46:50,0.0002165,calculating multimodal neighborhood for realization 23
+14:46:50,6.51e-05,...getting weights
+14:46:50,0.000103,...getting par distances
+14:46:50,0.0001752,...sorting composite score
+14:46:50,0.0001485,calculating multimodal neighborhood for realization 24
+14:46:50,5.18e-05,...getting weights
+14:46:50,9.73e-05,...getting par distances
+14:46:50,0.0001719,...sorting composite score
+14:46:50,0.0001164,calculating multimodal neighborhood for realization 25
+14:46:50,6.48e-05,...getting weights
+14:46:50,0.0001036,...getting par distances
+14:46:50,0.0001687,...sorting composite score
+14:46:50,0.0001148,calculating multimodal neighborhood for realization 26
+14:46:50,4.85e-05,...getting weights
+14:46:50,9.14e-05,...getting par distances
+14:46:50,0.0001675,...sorting composite score
+14:46:50,0.000113,calculating multimodal neighborhood for realization 28
+14:46:50,4.99e-05,...getting weights
+14:46:50,8.92e-05,...getting par distances
+14:46:50,0.0001666,...sorting composite score
+14:46:50,0.0001133,calculating multimodal neighborhood for realization 29
+14:46:50,4.76e-05,...getting weights
+14:46:50,8.91e-05,...getting par distances
+14:46:50,0.0001987,...sorting composite score
+14:46:50,0.0001158,calculating multimodal neighborhood for realization 31
+14:46:50,4.92e-05,...getting weights
+14:46:50,0.0001471,...getting par distances
+14:46:50,0.0001745,...sorting composite score
+14:46:50,0.0001154,calculating multimodal neighborhood for realization 32
+14:46:50,5.41e-05,...getting weights
+14:46:50,9.06e-05,...getting par distances
+14:46:50,0.000166,...sorting composite score
+14:46:50,0.0001177,calculating multimodal neighborhood for realization 34
+14:46:50,5.12e-05,...getting weights
+14:46:50,9.14e-05,...getting par distances
+14:46:50,0.0001625,...sorting composite score
+14:46:50,0.0001098,calculating multimodal neighborhood for realization 35
+14:46:50,4.68e-05,...getting weights
+14:46:50,8.79e-05,...getting par distances
+14:46:50,0.0001617,...sorting composite score
+14:46:50,0.0001332,calculating multimodal neighborhood for realization 36
+14:46:50,5.27e-05,...getting weights
+14:46:50,8.9e-05,...getting par distances
+14:46:50,0.0001644,...sorting composite score
+14:46:50,0.000113,calculating multimodal neighborhood for realization 37
+14:46:50,5.08e-05,...getting weights
+14:46:50,9.15e-05,...getting par distances
+14:46:50,0.0001621,...sorting composite score
+14:46:50,0.0001125,calculating multimodal neighborhood for realization 39
+14:46:50,4.92e-05,...getting weights
+14:46:50,9.41e-05,...getting par distances
+14:46:50,0.000169,...sorting composite score
+14:46:50,0.0001154,calculating multimodal neighborhood for realization 40
+14:46:50,4.75e-05,...getting weights
+14:46:50,8.85e-05,...getting par distances
+14:46:50,0.0001635,...sorting composite score
+14:46:50,0.00011,calculating multimodal neighborhood for realization 42
+14:46:50,4.72e-05,...getting weights
+14:46:50,0.0001242,...getting par distances
+14:46:50,0.0001871,...sorting composite score
+14:46:50,0.000115,calculating multimodal neighborhood for realization 43
+14:46:50,4.99e-05,...getting weights
+14:46:50,9.07e-05,...getting par distances
+14:46:50,0.0001705,...sorting composite score
+14:46:50,0.0001142,calculating multimodal neighborhood for realization 44
+14:46:50,4.69e-05,...getting weights
+14:46:50,8.82e-05,...getting par distances
+14:46:50,0.0001613,...sorting composite score
+14:46:50,0.0001132,calculating multimodal neighborhood for realization 45
+14:46:50,5.15e-05,...getting weights
+14:46:50,8.79e-05,...getting par distances
+14:46:50,0.0001606,...sorting composite score
+14:46:50,0.0001107,calculating multimodal neighborhood for realization 46
+14:46:50,4.71e-05,...getting weights
+14:46:50,8.66e-05,...getting par distances
+14:46:50,0.0001606,...sorting composite score
+14:46:50,0.0001114,calculating multimodal neighborhood for realization 47
+14:46:50,5.11e-05,...getting weights
+14:46:50,8.94e-05,...getting par distances
+14:46:50,0.0015605,...sorting composite score
+14:46:50,0.0002321,calculating multimodal neighborhood for realization 50
+14:46:50,6.4e-05,...getting weights
+14:46:50,0.0001154,...getting par distances
+14:46:50,0.0001835,...sorting composite score
+14:46:50,0.0001152,calculating multimodal neighborhood for realization 51
+14:46:50,4.98e-05,...getting weights
+14:46:50,9.81e-05,...getting par distances
+14:46:50,0.0001728,...sorting composite score
+14:46:50,0.0001136,calculating multimodal neighborhood for realization 52
+14:46:50,6.13e-05,...getting weights
+14:46:50,0.0002335,...getting par distances
+14:46:50,0.0003298,...sorting composite score
+14:46:50,0.0001737,calculating multimodal neighborhood for realization 53
+14:46:50,5.62e-05,...getting weights
+14:46:50,9.73e-05,...getting par distances
+14:46:50,0.0002723,...sorting composite score
+14:46:50,0.000191,calculating multimodal neighborhood for realization 54
+14:46:50,6.62e-05,...getting weights
+14:46:50,0.0001134,...getting par distances
+14:46:50,0.0001884,...sorting composite score
+14:46:50,0.0001486,calculating multimodal neighborhood for realization 56
+14:46:50,5.93e-05,...getting weights
+14:46:50,9.98e-05,...getting par distances
+14:46:50,0.0001766,...sorting composite score
+14:46:50,0.0001144,calculating multimodal neighborhood for realization 57
+14:46:50,4.87e-05,...getting weights
+14:46:50,9.45e-05,...getting par distances
+14:46:50,0.0001711,...sorting composite score
+14:46:50,0.0001138,calculating multimodal neighborhood for realization 58
+14:46:50,5.02e-05,...getting weights
+14:46:50,9.58e-05,...getting par distances
+14:46:50,0.0001681,...sorting composite score
+14:46:50,0.0023328,starting calcs for glm factor 0.05625
+14:46:50,0.00031,see .log file for more details
+14:46:50,0.0009309,multimodal solve for inflation factor  0.05625
+14:46:50,0.0001605,calculating nonlocalized multimodal upgrade for BASE
+14:46:50,0.0036385,calculating nonlocalized multimodal upgrade for 15
+14:46:50,0.0019945,calculating nonlocalized multimodal upgrade for 19
+14:46:50,0.0016557,calculating nonlocalized multimodal upgrade for 27
+14:46:50,0.0015532,calculating nonlocalized multimodal upgrade for 49
+14:46:50,0.0016886,calculating nonlocalized multimodal upgrade for 55
+14:46:50,0.002101,calculating nonlocalized multimodal upgrade for 30
+14:46:50,0.0017275,calculating nonlocalized multimodal upgrade for 33
+14:46:50,0.0015687,calculating nonlocalized multimodal upgrade for 38
+14:46:50,0.0024624,calculating nonlocalized multimodal upgrade for 41
+14:46:50,0.0016527,calculating nonlocalized multimodal upgrade for 48
+14:46:50,0.0015714,calculating nonlocalized multimodal upgrade for 0
+14:46:50,0.001573,calculating nonlocalized multimodal upgrade for 1
+14:46:50,0.0015529,calculating nonlocalized multimodal upgrade for 2
+14:46:50,0.0023436,calculating nonlocalized multimodal upgrade for 3
+14:46:50,0.003856,calculating nonlocalized multimodal upgrade for 4
+14:46:50,0.0016458,calculating nonlocalized multimodal upgrade for 5
+14:46:50,0.0015478,calculating nonlocalized multimodal upgrade for 6
+14:46:50,0.0015849,calculating nonlocalized multimodal upgrade for 7
+14:46:50,0.0015326,calculating nonlocalized multimodal upgrade for 8
+14:46:50,0.0015322,calculating nonlocalized multimodal upgrade for 9
+14:46:50,0.0015086,calculating nonlocalized multimodal upgrade for 10
+14:46:50,0.0015243,calculating nonlocalized multimodal upgrade for 11
+14:46:50,0.0021556,calculating nonlocalized multimodal upgrade for 12
+14:46:50,0.0021212,calculating nonlocalized multimodal upgrade for 13
+14:46:50,0.0037891,calculating nonlocalized multimodal upgrade for 14
+14:46:50,0.0018848,calculating nonlocalized multimodal upgrade for 16
+14:46:50,0.003723,calculating nonlocalized multimodal upgrade for 17
+14:46:50,0.0018392,calculating nonlocalized multimodal upgrade for 18
+14:46:50,0.0016556,calculating nonlocalized multimodal upgrade for 20
+14:46:50,0.0015448,calculating nonlocalized multimodal upgrade for 21
+14:46:50,0.0037529,calculating nonlocalized multimodal upgrade for 22
+14:46:50,0.0018161,calculating nonlocalized multimodal upgrade for 23
+14:46:50,0.0037578,calculating nonlocalized multimodal upgrade for 24
+14:46:50,0.0018609,calculating nonlocalized multimodal upgrade for 25
+14:46:50,0.002809,calculating nonlocalized multimodal upgrade for 26
+14:46:50,0.0027981,calculating nonlocalized multimodal upgrade for 28
+14:46:50,0.0028969,calculating nonlocalized multimodal upgrade for 29
+14:46:50,0.0026921,calculating nonlocalized multimodal upgrade for 31
+14:46:50,0.0029344,calculating nonlocalized multimodal upgrade for 32
+14:46:50,0.001665,calculating nonlocalized multimodal upgrade for 34
+14:46:50,0.0016587,calculating nonlocalized multimodal upgrade for 35
+14:46:50,0.0015707,calculating nonlocalized multimodal upgrade for 36
+14:46:50,0.0015501,calculating nonlocalized multimodal upgrade for 37
+14:46:50,0.0015295,calculating nonlocalized multimodal upgrade for 39
+14:46:50,0.0015666,calculating nonlocalized multimodal upgrade for 40
+14:46:50,0.0023601,calculating nonlocalized multimodal upgrade for 42
+14:46:50,0.0018644,calculating nonlocalized multimodal upgrade for 43
+14:46:50,0.001623,calculating nonlocalized multimodal upgrade for 44
+14:46:50,0.0018163,calculating nonlocalized multimodal upgrade for 45
+14:46:50,0.0017859,calculating nonlocalized multimodal upgrade for 46
+14:46:50,0.0016919,calculating nonlocalized multimodal upgrade for 47
+14:46:50,0.001592,calculating nonlocalized multimodal upgrade for 50
+14:46:50,0.0015428,calculating nonlocalized multimodal upgrade for 51
+14:46:50,0.0015182,calculating nonlocalized multimodal upgrade for 52
+14:46:50,0.001491,calculating nonlocalized multimodal upgrade for 53
+14:46:50,0.0015051,calculating nonlocalized multimodal upgrade for 54
+14:46:50,0.0015246,calculating nonlocalized multimodal upgrade for 56
+14:46:50,0.0016912,calculating nonlocalized multimodal upgrade for 57
+14:46:50,0.0015746,calculating nonlocalized multimodal upgrade for 58
+14:46:51,0.0040493,finished calcs for: 0.05625
+14:46:51,0.0006981,starting calcs for glm factor 0.5625
+14:46:51,9.81e-05,see .log file for more details
+14:46:51,0.0006813,multimodal solve for inflation factor  0.5625
+14:46:51,0.0001144,calculating nonlocalized multimodal upgrade for BASE
+14:46:51,0.0016631,calculating nonlocalized multimodal upgrade for 15
+14:46:51,0.0015468,calculating nonlocalized multimodal upgrade for 19
+14:46:51,0.0015356,calculating nonlocalized multimodal upgrade for 27
+14:46:51,0.0015374,calculating nonlocalized multimodal upgrade for 49
+14:46:51,0.0017619,calculating nonlocalized multimodal upgrade for 55
+14:46:51,0.0017223,calculating nonlocalized multimodal upgrade for 30
+14:46:51,0.0015446,calculating nonlocalized multimodal upgrade for 33
+14:46:51,0.0015111,calculating nonlocalized multimodal upgrade for 38
+14:46:51,0.0015196,calculating nonlocalized multimodal upgrade for 41
+14:46:51,0.0015088,calculating nonlocalized multimodal upgrade for 48
+14:46:51,0.0015093,calculating nonlocalized multimodal upgrade for 0
+14:46:51,0.0014857,calculating nonlocalized multimodal upgrade for 1
+14:46:51,0.0014883,calculating nonlocalized multimodal upgrade for 2
+14:46:51,0.0014932,calculating nonlocalized multimodal upgrade for 3
+14:46:51,0.0017543,calculating nonlocalized multimodal upgrade for 4
+14:46:51,0.0015251,calculating nonlocalized multimodal upgrade for 5
+14:46:51,0.001514,calculating nonlocalized multimodal upgrade for 6
+14:46:51,0.0014948,calculating nonlocalized multimodal upgrade for 7
+14:46:51,0.0015177,calculating nonlocalized multimodal upgrade for 8
+14:46:51,0.001469,calculating nonlocalized multimodal upgrade for 9
+14:46:51,0.001104,calculating nonlocalized multimodal upgrade for 10
+14:46:51,0.0015347,calculating nonlocalized multimodal upgrade for 11
+14:46:51,0.0014887,calculating nonlocalized multimodal upgrade for 12
+14:46:51,0.0014851,calculating nonlocalized multimodal upgrade for 13
+14:46:51,0.0017967,calculating nonlocalized multimodal upgrade for 14
+14:46:51,0.0017355,calculating nonlocalized multimodal upgrade for 16
+14:46:51,0.0015776,calculating nonlocalized multimodal upgrade for 17
+14:46:51,0.0015071,calculating nonlocalized multimodal upgrade for 18
+14:46:51,0.0014935,calculating nonlocalized multimodal upgrade for 20
+14:46:51,0.0015227,calculating nonlocalized multimodal upgrade for 21
+14:46:51,0.0014905,calculating nonlocalized multimodal upgrade for 22
+14:46:51,0.0014671,calculating nonlocalized multimodal upgrade for 23
+14:46:51,0.0015116,calculating nonlocalized multimodal upgrade for 24
+14:46:51,0.00152,calculating nonlocalized multimodal upgrade for 25
+14:46:51,0.0019343,calculating nonlocalized multimodal upgrade for 26
+14:46:51,0.0017743,calculating nonlocalized multimodal upgrade for 28
+14:46:51,0.0017123,calculating nonlocalized multimodal upgrade for 29
+14:46:51,0.0016269,calculating nonlocalized multimodal upgrade for 31
+14:46:51,0.0017763,calculating nonlocalized multimodal upgrade for 32
+14:46:51,0.0015336,calculating nonlocalized multimodal upgrade for 34
+14:46:51,0.0015133,calculating nonlocalized multimodal upgrade for 35
+14:46:51,0.0015281,calculating nonlocalized multimodal upgrade for 36
+14:46:51,0.0015292,calculating nonlocalized multimodal upgrade for 37
+14:46:51,0.0020721,calculating nonlocalized multimodal upgrade for 39
+14:46:51,0.0018599,calculating nonlocalized multimodal upgrade for 40
+14:46:51,0.0020193,calculating nonlocalized multimodal upgrade for 42
+14:46:51,0.0020029,calculating nonlocalized multimodal upgrade for 43
+14:46:51,0.0018464,calculating nonlocalized multimodal upgrade for 44
+14:46:51,0.0016274,calculating nonlocalized multimodal upgrade for 45
+14:46:51,0.001537,calculating nonlocalized multimodal upgrade for 46
+14:46:51,0.0014832,calculating nonlocalized multimodal upgrade for 47
+14:46:51,0.0015213,calculating nonlocalized multimodal upgrade for 50
+14:46:51,0.0015223,calculating nonlocalized multimodal upgrade for 51
+14:46:51,0.0015008,calculating nonlocalized multimodal upgrade for 52
+14:46:51,0.0014787,calculating nonlocalized multimodal upgrade for 53
+14:46:51,0.0014894,calculating nonlocalized multimodal upgrade for 54
+14:46:51,0.0017959,calculating nonlocalized multimodal upgrade for 56
+14:46:51,0.00151,calculating nonlocalized multimodal upgrade for 57
+14:46:51,0.0014839,calculating nonlocalized multimodal upgrade for 58
+14:46:51,0.003052,finished calcs for: 0.5625
+14:46:51,0.0007592,starting calcs for glm factor 5.625
+14:46:51,0.0001007,see .log file for more details
+14:46:51,0.0011378,multimodal solve for inflation factor  5.625
+14:46:51,0.0001305,calculating nonlocalized multimodal upgrade for BASE
+14:46:51,0.0019213,calculating nonlocalized multimodal upgrade for 15
+14:46:51,0.0016167,calculating nonlocalized multimodal upgrade for 19
+14:46:51,0.0015417,calculating nonlocalized multimodal upgrade for 27
+14:46:51,0.0015145,calculating nonlocalized multimodal upgrade for 49
+14:46:51,0.001512,calculating nonlocalized multimodal upgrade for 55
+14:46:51,0.0015109,calculating nonlocalized multimodal upgrade for 30
+14:46:51,0.001486,calculating nonlocalized multimodal upgrade for 33
+14:46:51,0.0014856,calculating nonlocalized multimodal upgrade for 38
+14:46:51,0.0017636,calculating nonlocalized multimodal upgrade for 41
+14:46:51,0.0017749,calculating nonlocalized multimodal upgrade for 48
+14:46:51,0.0016123,calculating nonlocalized multimodal upgrade for 0
+14:46:51,0.0015954,calculating nonlocalized multimodal upgrade for 1
+14:46:51,0.0015565,calculating nonlocalized multimodal upgrade for 2
+14:46:51,0.0017389,calculating nonlocalized multimodal upgrade for 3
+14:46:51,0.0015488,calculating nonlocalized multimodal upgrade for 4
+14:46:51,0.0015176,calculating nonlocalized multimodal upgrade for 5
+14:46:51,0.0015403,calculating nonlocalized multimodal upgrade for 6
+14:46:51,0.0015223,calculating nonlocalized multimodal upgrade for 7
+14:46:51,0.0015608,calculating nonlocalized multimodal upgrade for 8
+14:46:51,0.0015539,calculating nonlocalized multimodal upgrade for 9
+14:46:51,0.0015289,calculating nonlocalized multimodal upgrade for 10
+14:46:51,0.0015161,calculating nonlocalized multimodal upgrade for 11
+14:46:51,0.0015052,calculating nonlocalized multimodal upgrade for 12
+14:46:51,0.0014806,calculating nonlocalized multimodal upgrade for 13
+14:46:51,0.0015301,calculating nonlocalized multimodal upgrade for 14
+14:46:51,0.0015107,calculating nonlocalized multimodal upgrade for 16
+14:46:51,0.001515,calculating nonlocalized multimodal upgrade for 17
+14:46:51,0.0014587,calculating nonlocalized multimodal upgrade for 18
+14:46:51,0.0019554,calculating nonlocalized multimodal upgrade for 20
+14:46:51,0.0016664,calculating nonlocalized multimodal upgrade for 21
+14:46:51,0.0015354,calculating nonlocalized multimodal upgrade for 22
+14:46:51,0.0015562,calculating nonlocalized multimodal upgrade for 23
+14:46:51,0.001521,calculating nonlocalized multimodal upgrade for 24
+14:46:51,0.0014851,calculating nonlocalized multimodal upgrade for 25
+14:46:51,0.0015112,calculating nonlocalized multimodal upgrade for 26
+14:46:51,0.0014957,calculating nonlocalized multimodal upgrade for 28
+14:46:51,0.0014994,calculating nonlocalized multimodal upgrade for 29
+14:46:51,0.0015571,calculating nonlocalized multimodal upgrade for 31
+14:46:51,0.001827,calculating nonlocalized multimodal upgrade for 32
+14:46:51,0.001661,calculating nonlocalized multimodal upgrade for 34
+14:46:51,0.0015835,calculating nonlocalized multimodal upgrade for 35
+14:46:51,0.0015749,calculating nonlocalized multimodal upgrade for 36
+14:46:51,0.0015419,calculating nonlocalized multimodal upgrade for 37
+14:46:51,0.0015689,calculating nonlocalized multimodal upgrade for 39
+14:46:51,0.0015656,calculating nonlocalized multimodal upgrade for 40
+14:46:51,0.0015102,calculating nonlocalized multimodal upgrade for 42
+14:46:51,0.001578,calculating nonlocalized multimodal upgrade for 43
+14:46:51,0.0010982,calculating nonlocalized multimodal upgrade for 44
+14:46:51,0.000525,calculating nonlocalized multimodal upgrade for 45
+14:46:51,0.0015407,calculating nonlocalized multimodal upgrade for 46
+14:46:51,0.0020397,calculating nonlocalized multimodal upgrade for 47
+14:46:51,0.0017586,calculating nonlocalized multimodal upgrade for 50
+14:46:51,0.0031676,calculating nonlocalized multimodal upgrade for 51
+14:46:51,0.0028038,calculating nonlocalized multimodal upgrade for 52
+14:46:51,0.0017602,calculating nonlocalized multimodal upgrade for 53
+14:46:51,0.0017072,calculating nonlocalized multimodal upgrade for 54
+14:46:51,0.0033153,calculating nonlocalized multimodal upgrade for 56
+14:46:51,0.0020259,calculating nonlocalized multimodal upgrade for 57
+14:46:51,0.0017213,calculating nonlocalized multimodal upgrade for 58
+14:46:51,0.0036825,finished calcs for: 5.625
+14:46:51,0.0008782,running upgrade ensembles
+14:46:51,7.49e-05,queuing 9 ensembles
+14:46:51,0.0091865,subset idx:pe real name:  0:BASE, 20:9, 24:13, 28:18, 32:23, 48:44, 
+14:46:51,0.0007823,subset idx:oe real name:  0:BASE, 20:9, 24:13, 28:18, 32:23, 48:44, 
+14:46:51,0.0183819,making runs
+14:48:53,122.459,processing runs
+14:48:53,0.0149191,evaluating upgrade ensembles
+14:48:53,0.0002404,last mean:  27.1203
+14:48:53,0.0005455,last stdev:  10.2005
+14:48:53,0.0011153,phi summary for lambda, scale fac:
+14:48:53,0.0005397,phi summary for lambda, scale fac:
+14:48:53,0.0008802,phi summary for lambda, scale fac:
+14:48:53,0.0005183,phi summary for lambda, scale fac:
+14:48:53,0.0004773,phi summary for lambda, scale fac:
+14:48:53,0.0004806,phi summary for lambda, scale fac:
+14:48:53,0.0007135,phi summary for lambda, scale fac:
+14:48:53,0.0005868,phi summary for lambda, scale fac:
+14:48:53,0.0004861,phi summary for lambda, scale fac:
+14:48:53,0.0010705,phi summary for best lambda, scale fac: 
+14:48:53,0.0077404,running remaining realizations for best lambda, scale:
+14:48:53,1.51e-05,dropping subset idxs from remaining_pe_lam
+14:48:53,3.49e-05,dropping subset idxs from remaining_oe_lam
+14:48:53,4.67e-05,queuing 54 runs
+14:48:53,0.0089423,making runs
+14:50:56,123.009,processing runs
+14:50:56,0.0056933,assembling ensembles
+14:50:56,0.0005202,updating phi
+14:50:56,0.0013312,phi summary for entire ensemble using lambda,scale_fac 
+14:50:56,0.0032817,last best mean phi * acceptable phi factor:  28.4763
+14:50:56,0.0017301,current best mean phi:  19.9175
+14:50:56,0.0020813,updating parameter ensemble
+14:50:56,1.59e-05,updating parameter ensemble
+14:50:56,0.0020941,updating lambda to  0.0421875
+14:50:56,0.121917,phi-based termination criteria check
+14:50:56,0.0018112,phiredstp:  0.01
+14:50:56,0.0020018,nphistp:  3
+14:50:56,0.0032983,nphinored (also used for consecutive bad lambda cycles):  3
+14:50:56,0.0021093,best mean phi sequence: 
+14:50:56,0.0006804,best phi yet:  19.9175
+14:50:56,0.0012459,number of consecutive bad lambda testing cycles:  0
+14:50:56,0.0026321,number of iterations satisfying phiredstp criteria:  1
+14:50:56,0.0011193,number of iterations since best yet mean phi:  0
+14:50:56,0.0009447,starting solve for iteration: 4
+14:50:56,9.31e-05,starting solve for iteration: 4
+14:50:56,0.0018648,current lambda:  0.0421875
+14:50:56,1.96e-05,subset defined as a percentage of ensemble size, using 6 realizations for subset
+
+14:50:56,8.4e-06,reordering variables in pe
+14:50:56,5.96e-05,preparing EnsembleSolver
+14:50:56,7.1e-05,getting phi vectors for all weights
+14:50:56,0.0005632,calculating multimodal neighborhoods with 59 realizations
+14:50:56,2e-05,calculating multimodal neighborhood for realization BASE
+14:50:56,7.5e-06,...getting weights
+14:50:56,3.68e-05,...getting par distances
+14:50:56,4.24e-05,...sorting composite score
+14:50:56,3.32e-05,calculating multimodal neighborhood for realization 9
+14:50:56,7.8e-06,...getting weights
+14:50:56,2.05e-05,...getting par distances
+14:50:56,4.04e-05,...sorting composite score
+14:50:56,2.46e-05,calculating multimodal neighborhood for realization 13
+14:50:56,8.5e-06,...getting weights
+14:50:56,1.92e-05,...getting par distances
+14:50:56,4.1e-05,...sorting composite score
+14:50:56,2.49e-05,calculating multimodal neighborhood for realization 18
+14:50:56,8.5e-06,...getting weights
+14:50:56,2e-05,...getting par distances
+14:50:56,4.29e-05,...sorting composite score
+14:50:56,2.53e-05,calculating multimodal neighborhood for realization 23
+14:50:56,8.5e-06,...getting weights
+14:50:56,1.9e-05,...getting par distances
+14:50:56,3.98e-05,...sorting composite score
+14:50:56,2.29e-05,calculating multimodal neighborhood for realization 44
+14:50:56,8.2e-06,...getting weights
+14:50:56,1.84e-05,...getting par distances
+14:50:56,3.82e-05,...sorting composite score
+14:50:56,2.28e-05,calculating multimodal neighborhood for realization 15
+14:50:56,8.2e-06,...getting weights
+14:50:56,1.78e-05,...getting par distances
+14:50:56,3.65e-05,...sorting composite score
+14:50:56,2.35e-05,calculating multimodal neighborhood for realization 19
+14:50:56,7.9e-06,...getting weights
+14:50:56,1.8e-05,...getting par distances
+14:50:56,3.79e-05,...sorting composite score
+14:50:56,2.27e-05,calculating multimodal neighborhood for realization 27
+14:50:56,8e-06,...getting weights
+14:50:56,3.29e-05,...getting par distances
+14:50:56,3.58e-05,...sorting composite score
+14:50:56,2.39e-05,calculating multimodal neighborhood for realization 49
+14:50:56,9.5e-06,...getting weights
+14:50:56,1.96e-05,...getting par distances
+14:50:56,4.07e-05,...sorting composite score
+14:50:56,2.53e-05,calculating multimodal neighborhood for realization 55
+14:50:56,8.6e-06,...getting weights
+14:50:56,1.88e-05,...getting par distances
+14:50:56,3.92e-05,...sorting composite score
+14:50:56,2.47e-05,calculating multimodal neighborhood for realization 30
+14:50:56,8.8e-06,...getting weights
+14:50:56,1.87e-05,...getting par distances
+14:50:56,4.03e-05,...sorting composite score
+14:50:56,2.46e-05,calculating multimodal neighborhood for realization 33
+14:50:56,8.7e-06,...getting weights
+14:50:56,1.89e-05,...getting par distances
+14:50:56,3.9e-05,...sorting composite score
+14:50:56,2.47e-05,calculating multimodal neighborhood for realization 38
+14:50:56,8.7e-06,...getting weights
+14:50:56,1.82e-05,...getting par distances
+14:50:56,3.78e-05,...sorting composite score
+14:50:56,2.48e-05,calculating multimodal neighborhood for realization 41
+14:50:56,8.7e-06,...getting weights
+14:50:56,1.81e-05,...getting par distances
+14:50:56,4.27e-05,...sorting composite score
+14:50:56,2.64e-05,calculating multimodal neighborhood for realization 48
+14:50:56,9.5e-06,...getting weights
+14:50:56,1.87e-05,...getting par distances
+14:50:56,3.99e-05,...sorting composite score
+14:50:56,2.91e-05,calculating multimodal neighborhood for realization 0
+14:50:56,1.08e-05,...getting weights
+14:50:56,3.51e-05,...getting par distances
+14:50:56,4.09e-05,...sorting composite score
+14:50:56,2.54e-05,calculating multimodal neighborhood for realization 1
+14:50:56,9.2e-06,...getting weights
+14:50:56,1.84e-05,...getting par distances
+14:50:56,4.35e-05,...sorting composite score
+14:50:56,2.83e-05,calculating multimodal neighborhood for realization 2
+14:50:56,1.01e-05,...getting weights
+14:50:56,2.1e-05,...getting par distances
+14:50:56,4.41e-05,...sorting composite score
+14:50:56,2.89e-05,calculating multimodal neighborhood for realization 3
+14:50:56,1.03e-05,...getting weights
+14:50:56,2.13e-05,...getting par distances
+14:50:56,4.37e-05,...sorting composite score
+14:50:56,2.85e-05,calculating multimodal neighborhood for realization 4
+14:50:56,9.8e-06,...getting weights
+14:50:56,2.22e-05,...getting par distances
+14:50:56,4.28e-05,...sorting composite score
+14:50:56,2.86e-05,calculating multimodal neighborhood for realization 5
+14:50:56,1.02e-05,...getting weights
+14:50:56,2.24e-05,...getting par distances
+14:50:56,4.49e-05,...sorting composite score
+14:50:56,2.82e-05,calculating multimodal neighborhood for realization 6
+14:50:56,1.02e-05,...getting weights
+14:50:56,2.19e-05,...getting par distances
+14:50:56,4.32e-05,...sorting composite score
+14:50:56,2.94e-05,calculating multimodal neighborhood for realization 7
+14:50:56,1.04e-05,...getting weights
+14:50:56,2.23e-05,...getting par distances
+14:50:56,4.51e-05,...sorting composite score
+14:50:56,2.83e-05,calculating multimodal neighborhood for realization 8
+14:50:56,1.05e-05,...getting weights
+14:50:56,4.25e-05,...getting par distances
+14:50:56,4.36e-05,...sorting composite score
+14:50:56,2.84e-05,calculating multimodal neighborhood for realization 10
+14:50:56,1.06e-05,...getting weights
+14:50:56,2.19e-05,...getting par distances
+14:50:56,4.49e-05,...sorting composite score
+14:50:56,2.9e-05,calculating multimodal neighborhood for realization 11
+14:50:56,1.06e-05,...getting weights
+14:50:56,2.09e-05,...getting par distances
+14:50:56,4.4e-05,...sorting composite score
+14:50:56,2.99e-05,calculating multimodal neighborhood for realization 12
+14:50:56,1.04e-05,...getting weights
+14:50:56,2.03e-05,...getting par distances
+14:50:56,4.33e-05,...sorting composite score
+14:50:56,2.86e-05,calculating multimodal neighborhood for realization 14
+14:50:56,1.13e-05,...getting weights
+14:50:56,2.36e-05,...getting par distances
+14:50:56,4.7e-05,...sorting composite score
+14:50:56,3.13e-05,calculating multimodal neighborhood for realization 16
+14:50:56,1.16e-05,...getting weights
+14:50:56,2.27e-05,...getting par distances
+14:50:56,4.68e-05,...sorting composite score
+14:50:56,3.13e-05,calculating multimodal neighborhood for realization 17
+14:50:56,1.17e-05,...getting weights
+14:50:56,2.37e-05,...getting par distances
+14:50:56,4.63e-05,...sorting composite score
+14:50:56,3.12e-05,calculating multimodal neighborhood for realization 20
+14:50:56,1.12e-05,...getting weights
+14:50:56,2.39e-05,...getting par distances
+14:50:56,4.84e-05,...sorting composite score
+14:50:56,3.91e-05,calculating multimodal neighborhood for realization 21
+14:50:56,1.15e-05,...getting weights
+14:50:56,3.68e-05,...getting par distances
+14:50:56,4.82e-05,...sorting composite score
+14:50:56,3.72e-05,calculating multimodal neighborhood for realization 22
+14:50:56,1.27e-05,...getting weights
+14:50:56,2.4e-05,...getting par distances
+14:50:56,4.63e-05,...sorting composite score
+14:50:56,3.1e-05,calculating multimodal neighborhood for realization 24
+14:50:56,1.12e-05,...getting weights
+14:50:56,2.32e-05,...getting par distances
+14:50:56,4.73e-05,...sorting composite score
+14:50:56,3.08e-05,calculating multimodal neighborhood for realization 25
+14:50:56,1.14e-05,...getting weights
+14:50:56,2.66e-05,...getting par distances
+14:50:56,5.31e-05,...sorting composite score
+14:50:56,3.45e-05,calculating multimodal neighborhood for realization 26
+14:50:56,1.44e-05,...getting weights
+14:50:56,2.91e-05,...getting par distances
+14:50:56,5.35e-05,...sorting composite score
+14:50:56,3.49e-05,calculating multimodal neighborhood for realization 28
+14:50:56,1.23e-05,...getting weights
+14:50:56,2.6e-05,...getting par distances
+14:50:56,5.18e-05,...sorting composite score
+14:50:56,3.43e-05,calculating multimodal neighborhood for realization 29
+14:50:56,1.25e-05,...getting weights
+14:50:56,2.57e-05,...getting par distances
+14:50:56,5.18e-05,...sorting composite score
+14:50:56,3.59e-05,calculating multimodal neighborhood for realization 31
+14:50:56,1.29e-05,...getting weights
+14:50:56,2.65e-05,...getting par distances
+14:50:56,5.4e-05,...sorting composite score
+14:50:56,3.56e-05,calculating multimodal neighborhood for realization 32
+14:50:56,1.28e-05,...getting weights
+14:50:56,4.77e-05,...getting par distances
+14:50:56,5.33e-05,...sorting composite score
+14:50:56,4.1e-05,calculating multimodal neighborhood for realization 34
+14:50:56,1.45e-05,...getting weights
+14:50:56,2.62e-05,...getting par distances
+14:50:56,5.35e-05,...sorting composite score
+14:50:56,3.58e-05,calculating multimodal neighborhood for realization 35
+14:50:56,1.28e-05,...getting weights
+14:50:56,2.64e-05,...getting par distances
+14:50:56,5.28e-05,...sorting composite score
+14:50:56,3.69e-05,calculating multimodal neighborhood for realization 36
+14:50:56,1.31e-05,...getting weights
+14:50:56,2.75e-05,...getting par distances
+14:50:56,5.21e-05,...sorting composite score
+14:50:56,3.54e-05,calculating multimodal neighborhood for realization 37
+14:50:56,1.38e-05,...getting weights
+14:50:56,2.51e-05,...getting par distances
+14:50:56,5.04e-05,...sorting composite score
+14:50:56,3.47e-05,calculating multimodal neighborhood for realization 39
+14:50:56,1.24e-05,...getting weights
+14:50:56,2.5e-05,...getting par distances
+14:50:56,5.16e-05,...sorting composite score
+14:50:56,3.53e-05,calculating multimodal neighborhood for realization 40
+14:50:56,1.27e-05,...getting weights
+14:50:56,2.58e-05,...getting par distances
+14:50:56,5.12e-05,...sorting composite score
+14:50:56,3.41e-05,calculating multimodal neighborhood for realization 42
+14:50:56,1.26e-05,...getting weights
+14:50:56,2.57e-05,...getting par distances
+14:50:56,5.1e-05,...sorting composite score
+14:50:56,3.48e-05,calculating multimodal neighborhood for realization 43
+14:50:56,1.24e-05,...getting weights
+14:50:56,4.2e-05,...getting par distances
+14:50:56,5.95e-05,...sorting composite score
+14:50:56,3.67e-05,calculating multimodal neighborhood for realization 45
+14:50:56,1.26e-05,...getting weights
+14:50:56,2.66e-05,...getting par distances
+14:50:56,5.26e-05,...sorting composite score
+14:50:56,3.41e-05,calculating multimodal neighborhood for realization 46
+14:50:56,1.27e-05,...getting weights
+14:50:56,2.54e-05,...getting par distances
+14:50:56,4.8e-05,...sorting composite score
+14:50:56,3.21e-05,calculating multimodal neighborhood for realization 47
+14:50:56,1.16e-05,...getting weights
+14:50:56,2.38e-05,...getting par distances
+14:50:56,4.75e-05,...sorting composite score
+14:50:56,3.19e-05,calculating multimodal neighborhood for realization 50
+14:50:56,1.16e-05,...getting weights
+14:50:56,2.44e-05,...getting par distances
+14:50:56,4.86e-05,...sorting composite score
+14:50:56,3.19e-05,calculating multimodal neighborhood for realization 51
+14:50:56,1.18e-05,...getting weights
+14:50:56,2.48e-05,...getting par distances
+14:50:56,4.77e-05,...sorting composite score
+14:50:56,3.27e-05,calculating multimodal neighborhood for realization 52
+14:50:56,1.17e-05,...getting weights
+14:50:56,2.35e-05,...getting par distances
+14:50:56,4.75e-05,...sorting composite score
+14:50:56,3.23e-05,calculating multimodal neighborhood for realization 53
+14:50:56,1.34e-05,...getting weights
+14:50:56,2.47e-05,...getting par distances
+14:50:56,4.94e-05,...sorting composite score
+14:50:56,3.19e-05,calculating multimodal neighborhood for realization 54
+14:50:56,1.17e-05,...getting weights
+14:50:56,4.41e-05,...getting par distances
+14:50:56,4.9e-05,...sorting composite score
+14:50:56,3.89e-05,calculating multimodal neighborhood for realization 56
+14:50:56,1.19e-05,...getting weights
+14:50:56,2.34e-05,...getting par distances
+14:50:56,4.8e-05,...sorting composite score
+14:50:56,3.23e-05,calculating multimodal neighborhood for realization 57
+14:50:56,1.16e-05,...getting weights
+14:50:56,2.4e-05,...getting par distances
+14:50:56,4.82e-05,...sorting composite score
+14:50:56,3.19e-05,calculating multimodal neighborhood for realization 58
+14:50:56,1.17e-05,...getting weights
+14:50:56,2.42e-05,...getting par distances
+14:50:56,4.72e-05,...sorting composite score
+14:50:56,0.002783,starting calcs for glm factor 0.00421875
+14:50:56,2.07e-05,see .log file for more details
+14:50:56,0.0038632,multimodal solve for inflation factor  0.00421875
+14:50:56,4.24e-05,calculating nonlocalized multimodal upgrade for BASE
+14:50:56,0.0006958,calculating nonlocalized multimodal upgrade for 9
+14:50:56,0.000557,calculating nonlocalized multimodal upgrade for 13
+14:50:56,0.0007357,calculating nonlocalized multimodal upgrade for 18
+14:50:56,0.0005298,calculating nonlocalized multimodal upgrade for 23
+14:50:56,0.000496,calculating nonlocalized multimodal upgrade for 44
+14:50:56,0.0004828,calculating nonlocalized multimodal upgrade for 15
+14:50:56,0.0004803,calculating nonlocalized multimodal upgrade for 19
+14:50:56,0.0004939,calculating nonlocalized multimodal upgrade for 27
+14:50:56,0.0004867,calculating nonlocalized multimodal upgrade for 49
+14:50:56,0.0005218,calculating nonlocalized multimodal upgrade for 55
+14:50:56,0.0005344,calculating nonlocalized multimodal upgrade for 30
+14:50:56,0.000554,calculating nonlocalized multimodal upgrade for 33
+14:50:56,0.0005631,calculating nonlocalized multimodal upgrade for 38
+14:50:56,0.000589,calculating nonlocalized multimodal upgrade for 41
+14:50:56,0.0005579,calculating nonlocalized multimodal upgrade for 48
+14:50:56,0.0005244,calculating nonlocalized multimodal upgrade for 0
+14:50:56,0.0005234,calculating nonlocalized multimodal upgrade for 1
+14:50:56,0.0004566,calculating nonlocalized multimodal upgrade for 2
+14:50:56,0.0004344,calculating nonlocalized multimodal upgrade for 3
+14:50:56,0.0004187,calculating nonlocalized multimodal upgrade for 4
+14:50:56,0.0004418,calculating nonlocalized multimodal upgrade for 5
+14:50:56,0.0003904,calculating nonlocalized multimodal upgrade for 6
+14:50:56,0.0003465,calculating nonlocalized multimodal upgrade for 7
+14:50:56,0.0003346,calculating nonlocalized multimodal upgrade for 8
+14:50:56,0.0003388,calculating nonlocalized multimodal upgrade for 10
+14:50:56,0.0003328,calculating nonlocalized multimodal upgrade for 11
+14:50:56,0.0003163,calculating nonlocalized multimodal upgrade for 12
+14:50:56,0.0002926,calculating nonlocalized multimodal upgrade for 14
+14:50:56,0.0003013,calculating nonlocalized multimodal upgrade for 16
+14:50:56,0.0002966,calculating nonlocalized multimodal upgrade for 17
+14:50:56,0.0002974,calculating nonlocalized multimodal upgrade for 20
+14:50:56,0.0002987,calculating nonlocalized multimodal upgrade for 21
+14:50:56,0.000293,calculating nonlocalized multimodal upgrade for 22
+14:50:56,0.0003103,calculating nonlocalized multimodal upgrade for 24
+14:50:56,0.0002975,calculating nonlocalized multimodal upgrade for 25
+14:50:56,0.0003013,calculating nonlocalized multimodal upgrade for 26
+14:50:56,0.0002962,calculating nonlocalized multimodal upgrade for 28
+14:50:56,0.0002724,calculating nonlocalized multimodal upgrade for 29
+14:50:56,0.0002663,calculating nonlocalized multimodal upgrade for 31
+14:50:56,0.0002776,calculating nonlocalized multimodal upgrade for 32
+14:50:56,0.000316,calculating nonlocalized multimodal upgrade for 34
+14:50:56,0.0002782,calculating nonlocalized multimodal upgrade for 35
+14:50:56,0.0002645,calculating nonlocalized multimodal upgrade for 36
+14:50:56,0.0002636,calculating nonlocalized multimodal upgrade for 37
+14:50:56,0.0002688,calculating nonlocalized multimodal upgrade for 39
+14:50:56,0.0002738,calculating nonlocalized multimodal upgrade for 40
+14:50:56,0.0002771,calculating nonlocalized multimodal upgrade for 42
+14:50:56,0.0002681,calculating nonlocalized multimodal upgrade for 43
+14:50:56,0.0002687,calculating nonlocalized multimodal upgrade for 45
+14:50:56,0.0002742,calculating nonlocalized multimodal upgrade for 46
+14:50:56,0.0002689,calculating nonlocalized multimodal upgrade for 47
+14:50:56,0.0002663,calculating nonlocalized multimodal upgrade for 50
+14:50:56,0.000271,calculating nonlocalized multimodal upgrade for 51
+14:50:56,0.000274,calculating nonlocalized multimodal upgrade for 52
+14:50:56,0.0002668,calculating nonlocalized multimodal upgrade for 53
+14:50:56,0.0002757,calculating nonlocalized multimodal upgrade for 54
+14:50:56,0.0002666,calculating nonlocalized multimodal upgrade for 56
+14:50:56,0.0002685,calculating nonlocalized multimodal upgrade for 57
+14:50:56,0.0002683,calculating nonlocalized multimodal upgrade for 58
+14:50:56,0.0021832,finished calcs for: 0.00421875
+14:50:56,0.0016786,starting calcs for glm factor 0.0421875
+14:50:56,2.63e-05,see .log file for more details
+14:50:56,0.0022984,multimodal solve for inflation factor  0.0421875
+14:50:56,2.45e-05,calculating nonlocalized multimodal upgrade for BASE
+14:50:56,0.0003277,calculating nonlocalized multimodal upgrade for 9
+14:50:56,0.0002984,calculating nonlocalized multimodal upgrade for 13
+14:50:56,0.0002898,calculating nonlocalized multimodal upgrade for 18
+14:50:56,0.0002807,calculating nonlocalized multimodal upgrade for 23
+14:50:56,0.0002827,calculating nonlocalized multimodal upgrade for 44
+14:50:56,0.000277,calculating nonlocalized multimodal upgrade for 15
+14:50:56,0.0002706,calculating nonlocalized multimodal upgrade for 19
+14:50:56,0.0002712,calculating nonlocalized multimodal upgrade for 27
+14:50:56,0.0002755,calculating nonlocalized multimodal upgrade for 49
+14:50:56,0.0002799,calculating nonlocalized multimodal upgrade for 55
+14:50:56,0.0002762,calculating nonlocalized multimodal upgrade for 30
+14:50:56,0.0002821,calculating nonlocalized multimodal upgrade for 33
+14:50:56,0.0002737,calculating nonlocalized multimodal upgrade for 38
+14:50:56,0.0002934,calculating nonlocalized multimodal upgrade for 41
+14:50:56,0.0004044,calculating nonlocalized multimodal upgrade for 48
+14:50:56,0.0003236,calculating nonlocalized multimodal upgrade for 0
+14:50:56,0.0002835,calculating nonlocalized multimodal upgrade for 1
+14:50:56,0.0002797,calculating nonlocalized multimodal upgrade for 2
+14:50:56,0.000285,calculating nonlocalized multimodal upgrade for 3
+14:50:56,0.000287,calculating nonlocalized multimodal upgrade for 4
+14:50:56,0.0002795,calculating nonlocalized multimodal upgrade for 5
+14:50:56,0.0002712,calculating nonlocalized multimodal upgrade for 6
+14:50:56,0.000266,calculating nonlocalized multimodal upgrade for 7
+14:50:56,0.0002662,calculating nonlocalized multimodal upgrade for 8
+14:50:56,0.0002716,calculating nonlocalized multimodal upgrade for 10
+14:50:56,0.0002654,calculating nonlocalized multimodal upgrade for 11
+14:50:56,0.0002699,calculating nonlocalized multimodal upgrade for 12
+14:50:56,0.0002838,calculating nonlocalized multimodal upgrade for 14
+14:50:56,0.000273,calculating nonlocalized multimodal upgrade for 16
+14:50:56,0.0002705,calculating nonlocalized multimodal upgrade for 17
+14:50:56,0.0002719,calculating nonlocalized multimodal upgrade for 20
+14:50:56,0.0002719,calculating nonlocalized multimodal upgrade for 21
+14:50:56,0.0002703,calculating nonlocalized multimodal upgrade for 22
+14:50:56,0.0002739,calculating nonlocalized multimodal upgrade for 24
+14:50:56,0.0002766,calculating nonlocalized multimodal upgrade for 25
+14:50:56,0.0002714,calculating nonlocalized multimodal upgrade for 26
+14:50:56,0.0002682,calculating nonlocalized multimodal upgrade for 28
+14:50:56,0.000272,calculating nonlocalized multimodal upgrade for 29
+14:50:56,0.0002666,calculating nonlocalized multimodal upgrade for 31
+14:50:56,0.0002704,calculating nonlocalized multimodal upgrade for 32
+14:50:56,0.0002779,calculating nonlocalized multimodal upgrade for 34
+14:50:56,0.0002746,calculating nonlocalized multimodal upgrade for 35
+14:50:56,0.000274,calculating nonlocalized multimodal upgrade for 36
+14:50:56,0.000271,calculating nonlocalized multimodal upgrade for 37
+14:50:56,0.000271,calculating nonlocalized multimodal upgrade for 39
+14:50:56,0.0002934,calculating nonlocalized multimodal upgrade for 40
+14:50:56,0.000277,calculating nonlocalized multimodal upgrade for 42
+14:50:56,0.0002732,calculating nonlocalized multimodal upgrade for 43
+14:50:56,0.0002786,calculating nonlocalized multimodal upgrade for 45
+14:50:56,0.0002733,calculating nonlocalized multimodal upgrade for 46
+14:50:56,0.0002778,calculating nonlocalized multimodal upgrade for 47
+14:50:56,0.0002719,calculating nonlocalized multimodal upgrade for 50
+14:50:56,0.0002735,calculating nonlocalized multimodal upgrade for 51
+14:50:56,0.000268,calculating nonlocalized multimodal upgrade for 52
+14:50:56,0.000267,calculating nonlocalized multimodal upgrade for 53
+14:50:56,0.0002705,calculating nonlocalized multimodal upgrade for 54
+14:50:56,0.000269,calculating nonlocalized multimodal upgrade for 56
+14:50:56,0.0002713,calculating nonlocalized multimodal upgrade for 57
+14:50:56,0.0002697,calculating nonlocalized multimodal upgrade for 58
+14:50:56,0.0024658,finished calcs for: 0.0421875
+14:50:56,0.0006602,starting calcs for glm factor 0.421875
+14:50:56,1.36e-05,see .log file for more details
+14:50:56,0.0007625,multimodal solve for inflation factor  0.421875
+14:50:56,2.74e-05,calculating nonlocalized multimodal upgrade for BASE
+14:50:56,0.0003662,calculating nonlocalized multimodal upgrade for 9
+14:50:56,0.0003034,calculating nonlocalized multimodal upgrade for 13
+14:50:56,0.000282,calculating nonlocalized multimodal upgrade for 18
+14:50:56,0.0002747,calculating nonlocalized multimodal upgrade for 23
+14:50:56,0.0002758,calculating nonlocalized multimodal upgrade for 44
+14:50:56,0.0002923,calculating nonlocalized multimodal upgrade for 15
+14:50:56,0.000276,calculating nonlocalized multimodal upgrade for 19
+14:50:56,0.0002726,calculating nonlocalized multimodal upgrade for 27
+14:50:56,0.0002684,calculating nonlocalized multimodal upgrade for 49
+14:50:56,0.0002814,calculating nonlocalized multimodal upgrade for 55
+14:50:56,0.0002739,calculating nonlocalized multimodal upgrade for 30
+14:50:56,0.0002717,calculating nonlocalized multimodal upgrade for 33
+14:50:56,0.0002851,calculating nonlocalized multimodal upgrade for 38
+14:50:56,0.0002721,calculating nonlocalized multimodal upgrade for 41
+14:50:56,0.0002737,calculating nonlocalized multimodal upgrade for 48
+14:50:56,0.000267,calculating nonlocalized multimodal upgrade for 0
+14:50:56,0.0002723,calculating nonlocalized multimodal upgrade for 1
+14:50:56,0.0002679,calculating nonlocalized multimodal upgrade for 2
+14:50:56,0.0002706,calculating nonlocalized multimodal upgrade for 3
+14:50:56,0.0002781,calculating nonlocalized multimodal upgrade for 4
+14:50:56,0.0002764,calculating nonlocalized multimodal upgrade for 5
+14:50:56,0.00028,calculating nonlocalized multimodal upgrade for 6
+14:50:56,0.0002672,calculating nonlocalized multimodal upgrade for 7
+14:50:56,0.0002693,calculating nonlocalized multimodal upgrade for 8
+14:50:56,0.0002654,calculating nonlocalized multimodal upgrade for 10
+14:50:56,0.0002699,calculating nonlocalized multimodal upgrade for 11
+14:50:56,0.0002745,calculating nonlocalized multimodal upgrade for 12
+14:50:56,0.0002681,calculating nonlocalized multimodal upgrade for 14
+14:50:56,0.000273,calculating nonlocalized multimodal upgrade for 16
+14:50:56,0.0002678,calculating nonlocalized multimodal upgrade for 17
+14:50:56,0.0002664,calculating nonlocalized multimodal upgrade for 20
+14:50:56,0.0002897,calculating nonlocalized multimodal upgrade for 21
+14:50:56,0.0002702,calculating nonlocalized multimodal upgrade for 22
+14:50:56,0.0002674,calculating nonlocalized multimodal upgrade for 24
+14:50:56,0.0002786,calculating nonlocalized multimodal upgrade for 25
+14:50:56,0.0002748,calculating nonlocalized multimodal upgrade for 26
+14:50:56,0.0002678,calculating nonlocalized multimodal upgrade for 28
+14:50:56,0.0002693,calculating nonlocalized multimodal upgrade for 29
+14:50:56,0.0002706,calculating nonlocalized multimodal upgrade for 31
+14:50:56,0.0002692,calculating nonlocalized multimodal upgrade for 32
+14:50:56,0.0002677,calculating nonlocalized multimodal upgrade for 34
+14:50:56,0.0002827,calculating nonlocalized multimodal upgrade for 35
+14:50:56,0.0002706,calculating nonlocalized multimodal upgrade for 36
+14:50:56,0.0002671,calculating nonlocalized multimodal upgrade for 37
+14:50:56,0.0002677,calculating nonlocalized multimodal upgrade for 39
+14:50:56,0.0002693,calculating nonlocalized multimodal upgrade for 40
+14:50:56,0.0002726,calculating nonlocalized multimodal upgrade for 42
+14:50:56,0.0002866,calculating nonlocalized multimodal upgrade for 43
+14:50:56,0.0002812,calculating nonlocalized multimodal upgrade for 45
+14:50:56,0.0002787,calculating nonlocalized multimodal upgrade for 46
+14:50:56,0.000285,calculating nonlocalized multimodal upgrade for 47
+14:50:56,0.0002822,calculating nonlocalized multimodal upgrade for 50
+14:50:56,0.000274,calculating nonlocalized multimodal upgrade for 51
+14:50:56,0.0002723,calculating nonlocalized multimodal upgrade for 52
+14:50:56,0.0002718,calculating nonlocalized multimodal upgrade for 53
+14:50:56,0.0002786,calculating nonlocalized multimodal upgrade for 54
+14:50:56,0.0002667,calculating nonlocalized multimodal upgrade for 56
+14:50:56,0.000265,calculating nonlocalized multimodal upgrade for 57
+14:50:56,0.0002695,calculating nonlocalized multimodal upgrade for 58
+14:50:56,0.0025332,finished calcs for: 0.421875
+14:50:56,0.001234,running upgrade ensembles
+14:50:56,1.06e-05,queuing 9 ensembles
+14:50:56,0.0073334,subset idx:pe real name:  0:BASE, 13:38, 19:3, 24:8, 41:34, 56:54, 
+14:50:56,0.0033815,subset idx:oe real name:  0:BASE, 13:38, 19:3, 24:8, 41:34, 56:54, 
+14:50:56,0.0034034,making runs
+14:52:59,122.085,processing runs
+14:52:59,0.0409199,evaluating upgrade ensembles
+14:52:59,0.0005299,last mean:  19.9175
+14:52:59,0.0005169,last stdev:  8.17699
+14:52:59,0.0033077,phi summary for lambda, scale fac:
+14:52:59,0.0029322,phi summary for lambda, scale fac:
+14:52:59,0.0026358,phi summary for lambda, scale fac:
+14:52:59,0.0041724,phi summary for lambda, scale fac:
+14:52:59,0.0028999,phi summary for lambda, scale fac:
+14:52:59,0.0040844,phi summary for lambda, scale fac:
+14:52:59,0.0039687,phi summary for lambda, scale fac:
+14:52:59,0.0026222,phi summary for lambda, scale fac:
+14:52:59,0.0030317,phi summary for lambda, scale fac:
+14:52:59,0.0032387,phi summary for best lambda, scale fac: 
+14:52:59,0.0044491,running remaining realizations for best lambda, scale:
+14:52:59,8.02e-05,dropping subset idxs from remaining_pe_lam
+14:52:59,0.0001777,dropping subset idxs from remaining_oe_lam
+14:52:59,0.0001905,queuing 54 runs
+14:52:59,0.0325054,making runs
+14:55:17,137.971,processing runs
+14:55:17,0.003264,assembling ensembles
+14:55:17,0.0002629,updating phi
+14:55:17,0.0024585,phi summary for entire ensemble using lambda,scale_fac 
+14:55:17,0.010459,last best mean phi * acceptable phi factor:  20.9134
+14:55:17,0.0024375,current best mean phi:  18.3712
+14:55:17,0.0024923,updating parameter ensemble
+14:55:17,3.68e-05,updating parameter ensemble
+14:55:17,0.003797,updating lambda to  0.0316406
+14:55:17,0.0824309,phi-based termination criteria check
+14:55:17,0.0002925,phiredstp:  0.01
+14:55:17,0.0002459,nphistp:  3
+14:55:17,0.0002477,nphinored (also used for consecutive bad lambda cycles):  3
+14:55:17,0.0002536,best mean phi sequence: 
+14:55:17,0.0002169,best phi yet:  18.3712
+14:55:17,0.0002216,number of consecutive bad lambda testing cycles:  0
+14:55:17,0.0002456,number of iterations satisfying phiredstp criteria:  1
+14:55:17,0.0002516,number of iterations since best yet mean phi:  0
+14:55:17,0.0003571,starting solve for iteration: 5
+14:55:17,1.82e-05,starting solve for iteration: 5
+14:55:17,0.000225,current lambda:  0.0316406
+14:55:17,3.7e-05,subset defined as a percentage of ensemble size, using 6 realizations for subset
+
+14:55:17,1.23e-05,reordering variables in pe
+14:55:17,8.08e-05,preparing EnsembleSolver
+14:55:17,9.53e-05,getting phi vectors for all weights
+14:55:17,0.0009341,calculating multimodal neighborhoods with 59 realizations
+14:55:17,2.18e-05,calculating multimodal neighborhood for realization BASE
+14:55:17,7.9e-06,...getting weights
+14:55:17,2.32e-05,...getting par distances
+14:55:17,4.23e-05,...sorting composite score
+14:55:17,3.39e-05,calculating multimodal neighborhood for realization 38
+14:55:17,8.5e-06,...getting weights
+14:55:17,1.93e-05,...getting par distances
+14:55:17,3.99e-05,...sorting composite score
+14:55:17,2.4e-05,calculating multimodal neighborhood for realization 3
+14:55:17,8.5e-06,...getting weights
+14:55:17,1.77e-05,...getting par distances
+14:55:17,3.83e-05,...sorting composite score
+14:55:17,2.4e-05,calculating multimodal neighborhood for realization 8
+14:55:17,8.7e-06,...getting weights
+14:55:17,1.86e-05,...getting par distances
+14:55:17,3.87e-05,...sorting composite score
+14:55:17,2.31e-05,calculating multimodal neighborhood for realization 34
+14:55:17,8.2e-06,...getting weights
+14:55:17,1.69e-05,...getting par distances
+14:55:17,3.62e-05,...sorting composite score
+14:55:17,2.2e-05,calculating multimodal neighborhood for realization 54
+14:55:17,7.4e-06,...getting weights
+14:55:17,1.68e-05,...getting par distances
+14:55:17,9.05e-05,...sorting composite score
+14:55:17,3.53e-05,calculating multimodal neighborhood for realization 9
+14:55:17,8.7e-06,...getting weights
+14:55:17,2.19e-05,...getting par distances
+14:55:17,4.01e-05,...sorting composite score
+14:55:17,2.23e-05,calculating multimodal neighborhood for realization 13
+14:55:17,7.5e-06,...getting weights
+14:55:17,1.84e-05,...getting par distances
+14:55:17,3.75e-05,...sorting composite score
+14:55:17,2.21e-05,calculating multimodal neighborhood for realization 18
+14:55:17,7.4e-06,...getting weights
+14:55:17,3.43e-05,...getting par distances
+14:55:17,3.49e-05,...sorting composite score
+14:55:17,2.29e-05,calculating multimodal neighborhood for realization 23
+14:55:17,1.78e-05,...getting weights
+14:55:17,1.86e-05,...getting par distances
+14:55:17,3.53e-05,...sorting composite score
+14:55:17,2.19e-05,calculating multimodal neighborhood for realization 44
+14:55:17,7.4e-06,...getting weights
+14:55:17,1.62e-05,...getting par distances
+14:55:17,3.65e-05,...sorting composite score
+14:55:17,2.13e-05,calculating multimodal neighborhood for realization 15
+14:55:17,7.5e-06,...getting weights
+14:55:17,1.57e-05,...getting par distances
+14:55:17,3.45e-05,...sorting composite score
+14:55:17,2.11e-05,calculating multimodal neighborhood for realization 19
+14:55:17,7.3e-06,...getting weights
+14:55:17,1.59e-05,...getting par distances
+14:55:17,3.3e-05,...sorting composite score
+14:55:17,2.08e-05,calculating multimodal neighborhood for realization 27
+14:55:17,7.8e-06,...getting weights
+14:55:17,1.59e-05,...getting par distances
+14:55:17,3.36e-05,...sorting composite score
+14:55:17,2.12e-05,calculating multimodal neighborhood for realization 49
+14:55:17,7.4e-06,...getting weights
+14:55:17,1.59e-05,...getting par distances
+14:55:17,3.53e-05,...sorting composite score
+14:55:17,2.09e-05,calculating multimodal neighborhood for realization 55
+14:55:17,7.6e-06,...getting weights
+14:55:17,1.68e-05,...getting par distances
+14:55:17,3.34e-05,...sorting composite score
+14:55:17,2.16e-05,calculating multimodal neighborhood for realization 30
+14:55:17,7.6e-06,...getting weights
+14:55:17,3e-05,...getting par distances
+14:55:17,3.38e-05,...sorting composite score
+14:55:17,2.17e-05,calculating multimodal neighborhood for realization 33
+14:55:17,7.7e-06,...getting weights
+14:55:17,1.57e-05,...getting par distances
+14:55:17,3.22e-05,...sorting composite score
+14:55:17,2.13e-05,calculating multimodal neighborhood for realization 41
+14:55:17,9.9e-06,...getting weights
+14:55:17,1.67e-05,...getting par distances
+14:55:17,3.43e-05,...sorting composite score
+14:55:17,2.17e-05,calculating multimodal neighborhood for realization 48
+14:55:17,7.8e-06,...getting weights
+14:55:17,1.54e-05,...getting par distances
+14:55:17,3.36e-05,...sorting composite score
+14:55:17,2.06e-05,calculating multimodal neighborhood for realization 0
+14:55:17,7.5e-06,...getting weights
+14:55:17,1.54e-05,...getting par distances
+14:55:17,3.45e-05,...sorting composite score
+14:55:17,2.19e-05,calculating multimodal neighborhood for realization 1
+14:55:17,8e-06,...getting weights
+14:55:17,1.56e-05,...getting par distances
+14:55:17,4.36e-05,...sorting composite score
+14:55:17,4.57e-05,calculating multimodal neighborhood for realization 2
+14:55:17,2.65e-05,...getting weights
+14:55:17,1.79e-05,...getting par distances
+14:55:17,3.46e-05,...sorting composite score
+14:55:17,2.31e-05,calculating multimodal neighborhood for realization 4
+14:55:17,8.5e-06,...getting weights
+14:55:17,1.7e-05,...getting par distances
+14:55:17,3.5e-05,...sorting composite score
+14:55:17,2.23e-05,calculating multimodal neighborhood for realization 5
+14:55:17,7.7e-06,...getting weights
+14:55:17,3.26e-05,...getting par distances
+14:55:17,3.95e-05,...sorting composite score
+14:55:17,3.5e-05,calculating multimodal neighborhood for realization 6
+14:55:17,1.29e-05,...getting weights
+14:55:17,2.47e-05,...getting par distances
+14:55:17,5.27e-05,...sorting composite score
+14:55:17,3.58e-05,calculating multimodal neighborhood for realization 7
+14:55:17,1.3e-05,...getting weights
+14:55:17,2.53e-05,...getting par distances
+14:55:17,5.23e-05,...sorting composite score
+14:55:17,3.44e-05,calculating multimodal neighborhood for realization 10
+14:55:17,1.33e-05,...getting weights
+14:55:17,2.57e-05,...getting par distances
+14:55:17,5.31e-05,...sorting composite score
+14:55:17,3.61e-05,calculating multimodal neighborhood for realization 11
+14:55:17,1.39e-05,...getting weights
+14:55:17,2.46e-05,...getting par distances
+14:55:17,5.15e-05,...sorting composite score
+14:55:17,3.59e-05,calculating multimodal neighborhood for realization 12
+14:55:17,1.48e-05,...getting weights
+14:55:17,2.61e-05,...getting par distances
+14:55:17,5.52e-05,...sorting composite score
+14:55:17,4.8e-05,calculating multimodal neighborhood for realization 14
+14:55:17,1.63e-05,...getting weights
+14:55:17,2.53e-05,...getting par distances
+14:55:17,5.15e-05,...sorting composite score
+14:55:17,3.77e-05,calculating multimodal neighborhood for realization 16
+14:55:17,1.19e-05,...getting weights
+14:55:17,2.23e-05,...getting par distances
+14:55:17,4.53e-05,...sorting composite score
+14:55:17,4.18e-05,calculating multimodal neighborhood for realization 17
+14:55:17,1.15e-05,...getting weights
+14:55:17,4.33e-05,...getting par distances
+14:55:17,4.5e-05,...sorting composite score
+14:55:17,3.32e-05,calculating multimodal neighborhood for realization 20
+14:55:17,1.16e-05,...getting weights
+14:55:17,2.19e-05,...getting par distances
+14:55:17,4.61e-05,...sorting composite score
+14:55:17,3.13e-05,calculating multimodal neighborhood for realization 21
+14:55:17,1.19e-05,...getting weights
+14:55:17,2.18e-05,...getting par distances
+14:55:17,6.69e-05,...sorting composite score
+14:55:17,3.36e-05,calculating multimodal neighborhood for realization 22
+14:55:17,1.1e-05,...getting weights
+14:55:17,2.2e-05,...getting par distances
+14:55:17,4.52e-05,...sorting composite score
+14:55:17,2.85e-05,calculating multimodal neighborhood for realization 24
+14:55:17,1.03e-05,...getting weights
+14:55:17,2.08e-05,...getting par distances
+14:55:17,4.27e-05,...sorting composite score
+14:55:17,2.91e-05,calculating multimodal neighborhood for realization 25
+14:55:17,1.04e-05,...getting weights
+14:55:17,2.09e-05,...getting par distances
+14:55:17,4.36e-05,...sorting composite score
+14:55:17,2.84e-05,calculating multimodal neighborhood for realization 26
+14:55:17,1.04e-05,...getting weights
+14:55:17,2.85e-05,...getting par distances
+14:55:17,4.69e-05,...sorting composite score
+14:55:17,3.02e-05,calculating multimodal neighborhood for realization 28
+14:55:17,1.04e-05,...getting weights
+14:55:17,2.06e-05,...getting par distances
+14:55:17,4.21e-05,...sorting composite score
+14:55:17,2.86e-05,calculating multimodal neighborhood for realization 29
+14:55:17,1.03e-05,...getting weights
+14:55:17,4.81e-05,...getting par distances
+14:55:17,4.46e-05,...sorting composite score
+14:55:17,2.94e-05,calculating multimodal neighborhood for realization 31
+14:55:17,1.01e-05,...getting weights
+14:55:17,2.03e-05,...getting par distances
+14:55:17,4.23e-05,...sorting composite score
+14:55:17,2.85e-05,calculating multimodal neighborhood for realization 32
+14:55:17,1.15e-05,...getting weights
+14:55:17,2.01e-05,...getting par distances
+14:55:17,4.24e-05,...sorting composite score
+14:55:17,2.95e-05,calculating multimodal neighborhood for realization 35
+14:55:17,1.14e-05,...getting weights
+14:55:17,2.05e-05,...getting par distances
+14:55:17,4.48e-05,...sorting composite score
+14:55:17,2.95e-05,calculating multimodal neighborhood for realization 36
+14:55:17,1.18e-05,...getting weights
+14:55:17,2.11e-05,...getting par distances
+14:55:17,4.24e-05,...sorting composite score
+14:55:17,2.92e-05,calculating multimodal neighborhood for realization 37
+14:55:17,1.04e-05,...getting weights
+14:55:17,2.03e-05,...getting par distances
+14:55:17,4.18e-05,...sorting composite score
+14:55:17,6.58e-05,calculating multimodal neighborhood for realization 39
+14:55:17,1.03e-05,...getting weights
+14:55:17,1.77e-05,...getting par distances
+14:55:17,3.76e-05,...sorting composite score
+14:55:17,2.58e-05,calculating multimodal neighborhood for realization 40
+14:55:17,1.03e-05,...getting weights
+14:55:17,6.32e-05,...getting par distances
+14:55:17,4.59e-05,...sorting composite score
+14:55:17,2.84e-05,calculating multimodal neighborhood for realization 42
+14:55:17,1.07e-05,...getting weights
+14:55:17,2.99e-05,...getting par distances
+14:55:17,3.92e-05,...sorting composite score
+14:55:17,2.71e-05,calculating multimodal neighborhood for realization 43
+14:55:17,9.1e-06,...getting weights
+14:55:17,2e-05,...getting par distances
+14:55:17,4.15e-05,...sorting composite score
+14:55:17,3.12e-05,calculating multimodal neighborhood for realization 45
+14:55:17,5.06e-05,...getting weights
+14:55:17,6e-05,...getting par distances
+14:55:17,4.02e-05,...sorting composite score
+14:55:17,2.72e-05,calculating multimodal neighborhood for realization 46
+14:55:17,9e-06,...getting weights
+14:55:17,1.84e-05,...getting par distances
+14:55:17,3.69e-05,...sorting composite score
+14:55:17,2.55e-05,calculating multimodal neighborhood for realization 47
+14:55:17,1.03e-05,...getting weights
+14:55:17,1.91e-05,...getting par distances
+14:55:17,3.7e-05,...sorting composite score
+14:55:17,2.78e-05,calculating multimodal neighborhood for realization 50
+14:55:17,9.7e-06,...getting weights
+14:55:17,1.84e-05,...getting par distances
+14:55:17,3.81e-05,...sorting composite score
+14:55:17,2.63e-05,calculating multimodal neighborhood for realization 51
+14:55:17,9.4e-06,...getting weights
+14:55:17,1.79e-05,...getting par distances
+14:55:17,3.63e-05,...sorting composite score
+14:55:17,2.55e-05,calculating multimodal neighborhood for realization 52
+14:55:17,9.7e-06,...getting weights
+14:55:17,1.82e-05,...getting par distances
+14:55:17,3.75e-05,...sorting composite score
+14:55:17,2.76e-05,calculating multimodal neighborhood for realization 53
+14:55:17,9e-06,...getting weights
+14:55:17,3.7e-05,...getting par distances
+14:55:17,3.48e-05,...sorting composite score
+14:55:17,2.33e-05,calculating multimodal neighborhood for realization 56
+14:55:17,7.9e-06,...getting weights
+14:55:17,1.61e-05,...getting par distances
+14:55:17,3.28e-05,...sorting composite score
+14:55:17,2.26e-05,calculating multimodal neighborhood for realization 57
+14:55:17,8.8e-06,...getting weights
+14:55:17,1.6e-05,...getting par distances
+14:55:17,3.23e-05,...sorting composite score
+14:55:17,2.26e-05,calculating multimodal neighborhood for realization 58
+14:55:17,1.05e-05,...getting weights
+14:55:17,1.71e-05,...getting par distances
+14:55:17,3.3e-05,...sorting composite score
+14:55:17,0.0024361,starting calcs for glm factor 0.00316406
+14:55:17,6.73e-05,see .log file for more details
+14:55:17,0.0003107,multimodal solve for inflation factor  0.00316406
+14:55:17,2.21e-05,calculating nonlocalized multimodal upgrade for BASE
+14:55:17,0.0003871,calculating nonlocalized multimodal upgrade for 38
+14:55:17,0.0003073,calculating nonlocalized multimodal upgrade for 3
+14:55:17,0.000347,calculating nonlocalized multimodal upgrade for 8
+14:55:17,0.000286,calculating nonlocalized multimodal upgrade for 34
+14:55:17,0.0002868,calculating nonlocalized multimodal upgrade for 54
+14:55:17,0.0002836,calculating nonlocalized multimodal upgrade for 9
+14:55:17,0.0002772,calculating nonlocalized multimodal upgrade for 13
+14:55:17,0.0002765,calculating nonlocalized multimodal upgrade for 18
+14:55:17,0.0002774,calculating nonlocalized multimodal upgrade for 23
+14:55:17,0.0002876,calculating nonlocalized multimodal upgrade for 44
+14:55:17,0.0002844,calculating nonlocalized multimodal upgrade for 15
+14:55:17,0.0002725,calculating nonlocalized multimodal upgrade for 19
+14:55:17,0.0002802,calculating nonlocalized multimodal upgrade for 27
+14:55:17,0.0002866,calculating nonlocalized multimodal upgrade for 49
+14:55:17,0.0002832,calculating nonlocalized multimodal upgrade for 55
+14:55:17,0.0002985,calculating nonlocalized multimodal upgrade for 30
+14:55:17,0.0002934,calculating nonlocalized multimodal upgrade for 33
+14:55:17,0.0002848,calculating nonlocalized multimodal upgrade for 41
+14:55:17,0.0005552,calculating nonlocalized multimodal upgrade for 48
+14:55:17,0.0004586,calculating nonlocalized multimodal upgrade for 0
+14:55:17,0.0003488,calculating nonlocalized multimodal upgrade for 1
+14:55:17,0.0003053,calculating nonlocalized multimodal upgrade for 2
+14:55:17,0.0002946,calculating nonlocalized multimodal upgrade for 4
+14:55:17,0.0002799,calculating nonlocalized multimodal upgrade for 5
+14:55:17,0.0002773,calculating nonlocalized multimodal upgrade for 6
+14:55:17,0.0002882,calculating nonlocalized multimodal upgrade for 7
+14:55:17,0.0002788,calculating nonlocalized multimodal upgrade for 10
+14:55:17,0.0002757,calculating nonlocalized multimodal upgrade for 11
+14:55:17,0.0002903,calculating nonlocalized multimodal upgrade for 12
+14:55:17,0.0002774,calculating nonlocalized multimodal upgrade for 14
+14:55:17,0.0002824,calculating nonlocalized multimodal upgrade for 16
+14:55:17,0.0003057,calculating nonlocalized multimodal upgrade for 17
+14:55:17,0.0002918,calculating nonlocalized multimodal upgrade for 20
+14:55:17,0.0002811,calculating nonlocalized multimodal upgrade for 21
+14:55:17,0.0002748,calculating nonlocalized multimodal upgrade for 22
+14:55:17,0.0003109,calculating nonlocalized multimodal upgrade for 24
+14:55:17,0.0002987,calculating nonlocalized multimodal upgrade for 25
+14:55:17,0.0002829,calculating nonlocalized multimodal upgrade for 26
+14:55:17,0.000295,calculating nonlocalized multimodal upgrade for 28
+14:55:17,0.0002896,calculating nonlocalized multimodal upgrade for 29
+14:55:17,0.0003097,calculating nonlocalized multimodal upgrade for 31
+14:55:17,0.0002781,calculating nonlocalized multimodal upgrade for 32
+14:55:17,0.0003508,calculating nonlocalized multimodal upgrade for 35
+14:55:17,0.0002822,calculating nonlocalized multimodal upgrade for 36
+14:55:17,0.0002786,calculating nonlocalized multimodal upgrade for 37
+14:55:17,0.0003118,calculating nonlocalized multimodal upgrade for 39
+14:55:17,0.0002822,calculating nonlocalized multimodal upgrade for 40
+14:55:17,0.0002837,calculating nonlocalized multimodal upgrade for 42
+14:55:17,0.0002736,calculating nonlocalized multimodal upgrade for 43
+14:55:17,0.0002988,calculating nonlocalized multimodal upgrade for 45
+14:55:17,0.0002753,calculating nonlocalized multimodal upgrade for 46
+14:55:17,0.000274,calculating nonlocalized multimodal upgrade for 47
+14:55:17,0.0002754,calculating nonlocalized multimodal upgrade for 50
+14:55:17,0.0002727,calculating nonlocalized multimodal upgrade for 51
+14:55:17,0.0002776,calculating nonlocalized multimodal upgrade for 52
+14:55:17,0.0002775,calculating nonlocalized multimodal upgrade for 53
+14:55:17,0.0002735,calculating nonlocalized multimodal upgrade for 56
+14:55:17,0.0002861,calculating nonlocalized multimodal upgrade for 57
+14:55:17,0.0002952,calculating nonlocalized multimodal upgrade for 58
+14:55:17,0.0023756,finished calcs for: 0.00316406
+14:55:17,0.0007899,starting calcs for glm factor 0.0316406
+14:55:17,2.13e-05,see .log file for more details
+14:55:17,0.0007348,multimodal solve for inflation factor  0.0316406
+14:55:17,2.53e-05,calculating nonlocalized multimodal upgrade for BASE
+14:55:17,0.0003379,calculating nonlocalized multimodal upgrade for 38
+14:55:17,0.0002904,calculating nonlocalized multimodal upgrade for 3
+14:55:17,0.0002955,calculating nonlocalized multimodal upgrade for 8
+14:55:17,0.0002777,calculating nonlocalized multimodal upgrade for 34
+14:55:17,0.0002895,calculating nonlocalized multimodal upgrade for 54
+14:55:17,0.000337,calculating nonlocalized multimodal upgrade for 9
+14:55:17,0.0003219,calculating nonlocalized multimodal upgrade for 13
+14:55:17,0.0002919,calculating nonlocalized multimodal upgrade for 18
+14:55:17,0.0003007,calculating nonlocalized multimodal upgrade for 23
+14:55:17,0.0002969,calculating nonlocalized multimodal upgrade for 44
+14:55:17,0.000345,calculating nonlocalized multimodal upgrade for 15
+14:55:17,0.0003987,calculating nonlocalized multimodal upgrade for 19
+14:55:17,0.0003019,calculating nonlocalized multimodal upgrade for 27
+14:55:17,0.0003739,calculating nonlocalized multimodal upgrade for 49
+14:55:17,0.0003786,calculating nonlocalized multimodal upgrade for 55
+14:55:17,0.0003697,calculating nonlocalized multimodal upgrade for 30
+14:55:17,0.0003167,calculating nonlocalized multimodal upgrade for 33
+14:55:17,0.0002999,calculating nonlocalized multimodal upgrade for 41
+14:55:17,0.0002881,calculating nonlocalized multimodal upgrade for 48
+14:55:17,0.000306,calculating nonlocalized multimodal upgrade for 0
+14:55:17,0.0002927,calculating nonlocalized multimodal upgrade for 1
+14:55:17,0.0002983,calculating nonlocalized multimodal upgrade for 2
+14:55:17,0.0002773,calculating nonlocalized multimodal upgrade for 4
+14:55:17,0.0003208,calculating nonlocalized multimodal upgrade for 5
+14:55:17,0.0004042,calculating nonlocalized multimodal upgrade for 6
+14:55:17,0.0002789,calculating nonlocalized multimodal upgrade for 7
+14:55:17,0.000287,calculating nonlocalized multimodal upgrade for 10
+14:55:17,0.0002846,calculating nonlocalized multimodal upgrade for 11
+14:55:17,0.0002793,calculating nonlocalized multimodal upgrade for 12
+14:55:17,0.0002766,calculating nonlocalized multimodal upgrade for 14
+14:55:17,0.0003276,calculating nonlocalized multimodal upgrade for 16
+14:55:17,0.0002787,calculating nonlocalized multimodal upgrade for 17
+14:55:17,0.0002858,calculating nonlocalized multimodal upgrade for 20
+14:55:17,0.0002832,calculating nonlocalized multimodal upgrade for 21
+14:55:17,0.000286,calculating nonlocalized multimodal upgrade for 22
+14:55:17,0.000276,calculating nonlocalized multimodal upgrade for 24
+14:55:17,0.0002806,calculating nonlocalized multimodal upgrade for 25
+14:55:17,0.0002928,calculating nonlocalized multimodal upgrade for 26
+14:55:17,0.000283,calculating nonlocalized multimodal upgrade for 28
+14:55:17,0.0002822,calculating nonlocalized multimodal upgrade for 29
+14:55:17,0.0002812,calculating nonlocalized multimodal upgrade for 31
+14:55:17,0.000273,calculating nonlocalized multimodal upgrade for 32
+14:55:17,0.0002712,calculating nonlocalized multimodal upgrade for 35
+14:55:17,0.0002784,calculating nonlocalized multimodal upgrade for 36
+14:55:17,0.0003009,calculating nonlocalized multimodal upgrade for 37
+14:55:17,0.0002839,calculating nonlocalized multimodal upgrade for 39
+14:55:17,0.0002691,calculating nonlocalized multimodal upgrade for 40
+14:55:17,0.0002882,calculating nonlocalized multimodal upgrade for 42
+14:55:17,0.0002784,calculating nonlocalized multimodal upgrade for 43
+14:55:17,0.000274,calculating nonlocalized multimodal upgrade for 45
+14:55:17,0.0002682,calculating nonlocalized multimodal upgrade for 46
+14:55:17,0.0002869,calculating nonlocalized multimodal upgrade for 47
+14:55:17,0.000275,calculating nonlocalized multimodal upgrade for 50
+14:55:17,0.0002785,calculating nonlocalized multimodal upgrade for 51
+14:55:17,0.000269,calculating nonlocalized multimodal upgrade for 52
+14:55:17,0.000278,calculating nonlocalized multimodal upgrade for 53
+14:55:17,0.0002734,calculating nonlocalized multimodal upgrade for 56
+14:55:17,0.0002797,calculating nonlocalized multimodal upgrade for 57
+14:55:17,0.0002893,calculating nonlocalized multimodal upgrade for 58
+14:55:17,0.0024646,finished calcs for: 0.0316406
+14:55:17,0.0012692,starting calcs for glm factor 0.316406
+14:55:17,2.21e-05,see .log file for more details
+14:55:17,0.0045837,multimodal solve for inflation factor  0.316406
+14:55:17,2.7e-05,calculating nonlocalized multimodal upgrade for BASE
+14:55:17,0.0003556,calculating nonlocalized multimodal upgrade for 38
+14:55:17,0.0003017,calculating nonlocalized multimodal upgrade for 3
+14:55:17,0.0002944,calculating nonlocalized multimodal upgrade for 8
+14:55:17,0.0002888,calculating nonlocalized multimodal upgrade for 34
+14:55:17,0.0002786,calculating nonlocalized multimodal upgrade for 54
+14:55:17,0.0002761,calculating nonlocalized multimodal upgrade for 9
+14:55:17,0.0002739,calculating nonlocalized multimodal upgrade for 13
+14:55:17,0.0002792,calculating nonlocalized multimodal upgrade for 18
+14:55:17,0.0003013,calculating nonlocalized multimodal upgrade for 23
+14:55:17,0.000283,calculating nonlocalized multimodal upgrade for 44
+14:55:17,0.0002735,calculating nonlocalized multimodal upgrade for 15
+14:55:17,0.0002742,calculating nonlocalized multimodal upgrade for 19
+14:55:17,0.0002746,calculating nonlocalized multimodal upgrade for 27
+14:55:17,0.000274,calculating nonlocalized multimodal upgrade for 49
+14:55:17,0.0002766,calculating nonlocalized multimodal upgrade for 55
+14:55:17,0.0002751,calculating nonlocalized multimodal upgrade for 30
+14:55:17,0.0002829,calculating nonlocalized multimodal upgrade for 33
+14:55:17,0.0002744,calculating nonlocalized multimodal upgrade for 41
+14:55:17,0.0002714,calculating nonlocalized multimodal upgrade for 48
+14:55:17,0.000267,calculating nonlocalized multimodal upgrade for 0
+14:55:17,0.0002766,calculating nonlocalized multimodal upgrade for 1
+14:55:17,0.0002733,calculating nonlocalized multimodal upgrade for 2
+14:55:17,0.0002745,calculating nonlocalized multimodal upgrade for 4
+14:55:17,0.0002824,calculating nonlocalized multimodal upgrade for 5
+14:55:17,0.0002937,calculating nonlocalized multimodal upgrade for 6
+14:55:17,0.0002697,calculating nonlocalized multimodal upgrade for 7
+14:55:17,0.000267,calculating nonlocalized multimodal upgrade for 10
+14:55:17,0.0002799,calculating nonlocalized multimodal upgrade for 11
+14:55:17,0.0002739,calculating nonlocalized multimodal upgrade for 12
+14:55:17,0.0002697,calculating nonlocalized multimodal upgrade for 14
+14:55:17,0.0003593,calculating nonlocalized multimodal upgrade for 16
+14:55:17,0.0003309,calculating nonlocalized multimodal upgrade for 17
+14:55:17,0.000292,calculating nonlocalized multimodal upgrade for 20
+14:55:17,0.0002882,calculating nonlocalized multimodal upgrade for 21
+14:55:17,0.0002813,calculating nonlocalized multimodal upgrade for 22
+14:55:17,0.0003531,calculating nonlocalized multimodal upgrade for 24
+14:55:17,0.0003582,calculating nonlocalized multimodal upgrade for 25
+14:55:17,0.0002987,calculating nonlocalized multimodal upgrade for 26
+14:55:17,0.0002818,calculating nonlocalized multimodal upgrade for 28
+14:55:17,0.0002832,calculating nonlocalized multimodal upgrade for 29
+14:55:17,0.0002761,calculating nonlocalized multimodal upgrade for 31
+14:55:17,0.0002929,calculating nonlocalized multimodal upgrade for 32
+14:55:17,0.000286,calculating nonlocalized multimodal upgrade for 35
+14:55:17,0.0002875,calculating nonlocalized multimodal upgrade for 36
+14:55:17,0.0002793,calculating nonlocalized multimodal upgrade for 37
+14:55:17,0.0002844,calculating nonlocalized multimodal upgrade for 39
+14:55:17,0.0002849,calculating nonlocalized multimodal upgrade for 40
+14:55:17,0.0005052,calculating nonlocalized multimodal upgrade for 42
+14:55:17,0.0003207,calculating nonlocalized multimodal upgrade for 43
+14:55:17,0.0002944,calculating nonlocalized multimodal upgrade for 45
+14:55:17,0.0002792,calculating nonlocalized multimodal upgrade for 46
+14:55:17,0.0002768,calculating nonlocalized multimodal upgrade for 47
+14:55:17,0.0002846,calculating nonlocalized multimodal upgrade for 50
+14:55:17,0.000296,calculating nonlocalized multimodal upgrade for 51
+14:55:17,0.0002728,calculating nonlocalized multimodal upgrade for 52
+14:55:17,0.0002817,calculating nonlocalized multimodal upgrade for 53
+14:55:17,0.0002743,calculating nonlocalized multimodal upgrade for 56
+14:55:17,0.0002825,calculating nonlocalized multimodal upgrade for 57
+14:55:17,0.0002879,calculating nonlocalized multimodal upgrade for 58
+14:55:17,0.0024887,finished calcs for: 0.316406
+14:55:17,0.0039744,running upgrade ensembles
+14:55:17,2.25e-05,queuing 9 ensembles
+14:55:17,0.0058962,subset idx:pe real name:  0:BASE, 32:17, 43:35, 46:39, 53:50, 59:58, 
+14:55:17,0.0039058,subset idx:oe real name:  0:BASE, 32:17, 43:35, 46:39, 53:50, 59:58, 
+14:55:17,0.0058249,making runs
+14:57:22,125.072,processing runs
+14:57:22,0.0154246,evaluating upgrade ensembles
+14:57:22,0.0010301,last mean:  18.3712
+14:57:22,0.0007515,last stdev:  8.08288
+14:57:22,0.0008044,phi summary for lambda, scale fac:
+14:57:22,0.0006708,phi summary for lambda, scale fac:
+14:57:22,0.0004869,phi summary for lambda, scale fac:
+14:57:22,0.0005592,phi summary for lambda, scale fac:
+14:57:22,0.0005617,phi summary for lambda, scale fac:
+14:57:22,0.0005202,phi summary for lambda, scale fac:
+14:57:22,0.0006036,phi summary for lambda, scale fac:
+14:57:22,0.0005273,phi summary for lambda, scale fac:
+14:57:22,0.0004948,phi summary for lambda, scale fac:
+14:57:22,0.0034689,phi summary for best lambda, scale fac: 
+14:57:22,0.0071648,running remaining realizations for best lambda, scale:
+14:57:22,1.81e-05,dropping subset idxs from remaining_pe_lam
+14:57:22,3.37e-05,dropping subset idxs from remaining_oe_lam
+14:57:22,3.35e-05,queuing 54 runs
+14:57:22,0.0080528,making runs
+14:59:20,118.455,processing runs
+14:59:20,0.0024912,assembling ensembles
+14:59:20,0.0002411,updating phi
+14:59:20,0.0011353,phi summary for entire ensemble using lambda,scale_fac 
+14:59:20,0.0034306,last best mean phi * acceptable phi factor:  19.2898
+14:59:20,0.0002207,current best mean phi:  18.0071
+14:59:20,0.0001549,updating parameter ensemble
+14:59:20,8.8e-06,updating parameter ensemble
+14:59:20,0.0001586,not updating lambda (standard deviation reduction criteria not met)
+14:59:20,0.0506415,phi-based termination criteria check
+14:59:20,0.0006464,phiredstp:  0.01
+14:59:20,0.0001417,nphistp:  3
+14:59:20,0.0001371,nphinored (also used for consecutive bad lambda cycles):  3
+14:59:20,0.0002008,best mean phi sequence: 
+14:59:20,0.0001874,best phi yet:  18.0071
+14:59:20,0.000191,number of consecutive bad lambda testing cycles:  0
+14:59:20,0.000154,number of iterations satisfying phiredstp criteria:  1
+14:59:20,0.00014,number of iterations since best yet mean phi:  0
+14:59:20,0.0017693,solution iterations >= noptmax, all done

@@ -1,0 +1,2 @@
+name,obs_mean,obs_std,obs_min,obs_max,obs_stat_min,obs_stat_max,sim_mean,sim_std,sim_min,sim_max,sim_stat_min,sim_stat_max,distance
+oname:sim_otype:lst_usecol:conc_tag:trace.p,7.07874,0.17233,6.66164,7.49864,6.90641,7.25107,8.84632,0.143885,8.36454,9.43503,8.70244,8.99021,0.865898

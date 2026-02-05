@@ -1,0 +1,27 @@
+,org_file,model_file,use_cols,index_cols,fmt,sep,head_rows,upper_bound,lower_bound,operator,mlt_file,apply_order,zero_based
+0,org\calcite.txt,calcite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\calcite_cn_inst0_constant.csv,999,False
+1,org\dolomite.txt,dolomite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\dolomite_cn_inst0_constant.csv,999,False
+2,org\gypsum.txt,gypsum.txt,,, %11.4E,,0,100.0,1e-15,m,mult\gypsum_cn_inst0_constant.csv,999,False
+3,org\strontianite.txt,strontianite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\strontianite_cn_inst0_constant.csv,999,False
+4,org\witherite.txt,witherite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\witherite_cn_inst0_constant.csv,999,False
+5,org\co2g.txt,co2g.txt,,, %9.2E,,0,0.05,1e-15,m,mult\co2g_cn_inst0_constant.csv,999,False
+6,org\cax2.txt,cax2.txt,,, %10.3E,,0,100.0,1e-15,m,mult\cax2_cn_inst0_constant.csv,999,False
+7,org\mgx2.txt,mgx2.txt,,, %8.1E,,0,100.0,1e-15,m,mult\mgx2_cn_inst0_constant.csv,999,False
+8,org\kx.txt,kx.txt,,, %10.3E,,0,100.0,1e-15,m,mult\kx_cn_inst0_constant.csv,999,False
+9,org\nax.txt,nax.txt,,, %11.4E,,0,100.0,1e-15,m,mult\nax_cn_inst0_constant.csv,999,False
+10,org\quartz.txt,quartz.txt,,, %11.4E,,0,100.0,1e-15,m,mult\quartz_cn_inst0_constant.csv,999,False
+11,org\albite.txt,albite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\albite_cn_inst0_constant.csv,999,False
+12,org\kaolinite.txt,kaolinite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\kaolinite_cn_inst0_constant.csv,999,False
+13,org\muscovite.txt,muscovite.txt,,, %8.1E,,0,100.0,1e-15,m,mult\muscovite_cn_inst0_constant.csv,999,False
+14,org\uraninite.txt,uraninite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\uraninite_cn_inst0_constant.csv,999,False
+15,org\arsenopyrite.txt,arsenopyrite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\arsenopyrite_cn_inst0_constant.csv,999,False
+16,org\goethite.txt,goethite.txt,,, %10.3E,,0,100.0,1e-15,m,mult\goethite_cn_inst0_constant.csv,999,False
+17,org\feoh3.txt,feoh3.txt,,, %10.3E,,0,100.0,1e-15,m,mult\feoh3_cn_inst0_constant.csv,999,False
+18,org\siderite.txt,siderite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\siderite_cn_inst0_constant.csv,999,False
+19,org\mnoh3.txt,mnoh3.txt,,, %11.4E,,0,100.0,1e-15,m,mult\mnoh3_cn_inst0_constant.csv,999,False
+20,org\fluorapatite.txt,fluorapatite.txt,,, %10.3E,,0,100.0,1e-15,m,mult\fluorapatite_cn_inst0_constant.csv,999,False
+21,org\halite.txt,halite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\halite_cn_inst0_constant.csv,999,False
+22,org\illite.txt,illite.txt,,, %11.4E,,0,100.0,1e-15,m,mult\illite_cn_inst0_constant.csv,999,False
+23,org\chromite.txt,chromite.txt,,, %8.1E,,0,100.0,1e-15,m,mult\chromite_cn_inst0_constant.csv,999,False
+24,org\mix-ratio-sol-upstream.txt,mix-ratio-sol-upstream.txt,,, %8.5F,,0,1.0,0.01,m,mult\mix-ratio-sol-upstream_cn_inst0_constant.csv,999,False
+25,org\mix-ratio-sol-downstream.txt,mix-ratio-sol-downstream.txt,,, %8.5F,,0,1.0,0.01,m,mult\mix-ratio-sol-downstream_cn_inst0_constant.csv,999,False

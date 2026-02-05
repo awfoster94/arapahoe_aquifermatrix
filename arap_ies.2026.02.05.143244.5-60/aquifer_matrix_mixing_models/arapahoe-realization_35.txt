@@ -1,0 +1,167 @@
+
+
+        KNOBS
+            -iterations 1000
+
+            EQUILIBRIUM_PHASES 1
+                Calcite	0.0 0.0
+                Dolomite 0.0 0.0
+                Gypsum 0.0 0.0	
+                Strontianite 0.0 0.0 #dissolve_only
+                Witherite 0.0 0.0 #dissolve_only
+                CO2(g) 0.0 0.0
+                CaX2 0.0 0.0 
+                MgX2 0.0 0.0 
+                KX 0.0 0.0 
+                NaX 0.0 0.0 
+                Quartz 0.0 0.0 #dissolve_only
+                Albite 0.0 0.0	#dissolve_only
+                Kaolinite 0.0 0.0 #dissolve_only
+                Muscovite 0.0 0.0
+                Uraninite 0.0 0.0
+                Arsenopyrite 0.0 0.0 #dissolve_only
+                Goethite 0.0 0.0
+                Fe(OH)3 0.0 0.0 
+                Siderite 0.0 0.0
+                Mn(OH)3 0.0 0.0			
+                Fluorapatite 0.0 0.0 
+                Halite 0.0 0.0
+                Illite 0.0 0.0
+                Chromite 0.0 0.0	#dissolve_only
+            
+            END
+            
+            EQUILIBRIUM_PHASES 2
+            CO2(g)     -3.5     1.0 
+            O2(g)      -0.76     1.0 
+            
+            END
+            
+            REACTION_TEMPERATURE 1
+                14.6
+                
+            REACTION_PRESSURE 1
+                3
+            
+            REACTION_TEMPERATURE 2
+                13.327272727272728
+                
+            REACTION_PRESSURE 2
+                0.82
+            
+            Solution 1	GS-392400104150601
+            units		mg/L
+            redox       pe
+            temp		14.6
+            pH		    7.4
+            O(0)        0.1
+            Na		    273
+            Ca		    66.7
+            Mg		    6.3
+            K           4.73
+            Alkalinity	163	    as CaCO3
+            S(6)		 599
+            Cl		    4.15
+            F		    0.44
+            Mn		    0.113
+            Ba          0.0212
+            Sr          1.1
+            Fe          0.418
+            As          0.0001
+            U           2.1000000000000002e-05
+            Li          0.0213
+            Cr          0.0004
+            N(5)        0.03	   as N
+            N(3)        0.004	   as N
+            N(-3)       1.15	   as N
+            P           0.008    as P
+            
+            water       1
+            SAVE solution 1
+            END
+            
+            Solution	2 GS-385646104504601
+            units		mg/L
+            redox       pe
+            temp		13.327272727272728
+            pH		    7.568939393939393
+            O(0)        8 
+            Na		    34.07741935483871
+            Ca		    44.91973684210526
+            Mg		    9.723684210526315
+            K           3.7077419354838708
+            Alkalinity	83.64516129032258	as CaCO3
+            S(6)		72.99354838709677
+            Cl		    39.20967741935484
+            F		    0.6829032258064517
+            Mn		    0.042124387755102036
+            N(5)        0.8441095890410958	as N
+            N(-3)       0.3222222222222222	as N
+            
+            water       1
+            USE EQUILIBRIUM_PHASES 2
+            USE REACTION_TEMPERATURE 2
+            USE REACTION_PRESSURE 2
+            SAVE Solution 2
+            END
+            
+            TITLE Mixing Model, groundwater : recharge source water 1
+            MIX 1
+            1 0.5
+            2 0.5
+            SAVE solution 3   
+            END
+
+            REACTION 0 Convergence
+            H20 0
+            END
+
+            REACTION 1
+                Calcite        2.093319810582106
+                Dolomite       3.2863512858683723
+                Gypsum         5.924223525785729
+                Strontianite   2.067427858934023
+                Witherite      0.0001
+                CO2(g)         2.323635241790376
+                CaX2           3.171198329582323
+                MgX2           3.8930487680076573
+                KX             12.572751767295182
+                NaX            6.800373156575242
+                Quartz         0.7058686173692881
+                Albite         2.4887846329109786
+                Kaolinite      0.0001
+                Muscovite      0.0001
+                Uraninite      0.0001
+                Arsenopyrite   0.0001
+                Goethite       1.1668567019419083
+                Fe(OH)3        6.759964764380044
+                Siderite       7.099639390766253
+                Mn(OH)3        0.0001
+                Fluorapatite   1.0971175818569028
+                Halite         5.736032127350352
+                Illite         32.01213505878964
+                Chromite       1.4062834417482286
+
+            END
+
+            
+            TITLE React Mixture with Aquifer Matrix & Equilibrate with Subsurface Conditions
+            USE solution 3
+            USE REACTION 1
+            USE EQUILIBRIUM_PHASES 1
+            USE REACTION_TEMPERATURE 1
+            USE REACTION_PRESSURE 1
+            SAVE solution 4
+
+            SELECTED_OUTPUT
+                file arapahoe-realization_35-mixing.txt
+                selected_out      TRUE
+                pH     TRUE
+                charge_balance     TRUE
+                percent_error     TRUE
+                totals     O(0)
+                -saturation_indices		Aragonite Brucite Calcite Dolomite Dolomite-dis Fe(OH)3 Goethite Gypsum Gibbsite Magnesite Mn(OH)3 Rhodochrosite Siderite Sylvite Strontianite Witherite
+                -equilibrium_phases      Aragonite Brucite Calcite Dolomite Dolomite-dis Fe(OH)3 Goethite Gypsum Gibbsite Magnesite Mn(OH)3 Rhodochrosite Siderite Sylvite Strontianite Witherite
+                
+            END
+    

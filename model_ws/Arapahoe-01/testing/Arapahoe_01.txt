@@ -1,0 +1,126 @@
+TITLE Inverse Model No. 1 Arapahoe
+
+KNOBS
+	-iterations 1000
+
+Solution	1  # USGS-392118104362301
+        units		mg/L
+        redox       pe
+        temp		30.1
+        pH		    8.3
+        O(0)        0.0
+        Na		    70.4
+        Ca		    2.33
+        Mg		    0.408
+        K           1.53
+        Alkalinity	141	as CaCO3
+        S(6)		10.5
+        Cl		    1.64
+        F		    1.63
+        Mn		    0.0109
+        Ba          0.0366
+        Sr          0.0451
+        Fe          0.0263
+        Al          0.002 
+        Si          13.9 as SiO2
+        As          5.9999999999999995e-05
+        U           2e-05
+        Cr          2.9999999999999997e-05
+        P           0.036    as P
+	    #Li			1E-05 charge_balance
+
+        
+    water       1
+
+Save Solution 1
+
+Solution	2 # USGS-394155104425401
+        units		mg/L
+        redox       pe
+        temp		25.4
+        pH		    8.7
+        O(0)        0.3
+        Na		    56.5
+        Ca		    7.35
+        Mg		    0.495
+        K           1.74
+        Alkalinity	122	as CaCO3
+        S(6)		19.5
+        Cl		    2.03
+        F		    1.75
+        Mn		    0.0141
+        Ba          0.0793
+        Sr          0.141
+        Fe          0.0853
+        Al          0.0008 
+        Si          12.1 as SiO2
+        As          0.0001
+        U           2e-05
+        Cr          0.0004
+        P           0.003    as P
+	    #Li			1E-05 charge_balance
+
+        
+    water       1
+
+Save Solution 2
+
+INVERSE_MODELING
+	-solutions 1 2
+	-uncertainty 0.025
+	-phases
+		Calcite			
+		Dolomite
+		Gypsum
+		Strontianite
+		Witherite
+		CO2(g)
+		CaX2
+		MgX2
+		KX
+		NaX
+		Muscovite
+		Quartz  		dissolve_only
+		Albite			dissolve_only
+		Kaolinite		dissolve_only
+		Uraninite
+		Arsenopyrite	dissolve_only
+		Goethite
+		Fe(OH)3
+		Siderite
+		Mn(OH)3			
+		fluorapatite
+		Halite
+		Illite
+		Chromite	    dissolve_only
+	-minimal
+	-tolerance 1E-10
+	-multiple_precision
+
+#EQUILIBRIUM_PHASES
+#Calcite	 		0.0		10.0 
+#Dolomite 		0.0		10.0
+#Gypsum 			0.0		10.0
+#Strontianite	0.0		10.0
+#Barite			0.0		10.0	dissolve_only
+#CO2(g)			-2.5	10.0
+#CaX2			0.0		10.0
+#MgX2			0.0		10.0
+#KX				0.0		10.0	
+#NaX				0.0		10.0
+#SiO2			0.0		10.0	dissolve_only
+#Albite			0.0		10.0	
+#Kaolinite		0.0		10.0	dissolve_only
+#Uraninite		0.0		10.0	
+#Arsenopyrite	0.0		10.0	dissolve_only
+#Goethite		0.0		10.0
+#Fe(OH)3			0.0		10.0
+#Siderite		0.0		10.0
+#Pyrolusite		0.0		10.0	dissolve_only
+#Manganite		0.0		10.0	dissolve_only
+#Mn(OH)2			0.0		10.0	
+#Mn(OH)3			0.0		10.0			
+#Brucite			0.0		10.0	
+#Lignite?		0.0		10.0	
+
+

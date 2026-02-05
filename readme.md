@@ -6,4 +6,4 @@
 
 general concept for the workflow shown in diagram. 
 
-<img src="general_concept.png" width="400">
+<img src="general_concept.png" width="800">
